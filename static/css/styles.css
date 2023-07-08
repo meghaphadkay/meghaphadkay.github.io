@@ -1,0 +1,385 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Anziano";
+    src:
+        local("anziano"),
+        url("../fonts/Anziano Regular.otf");
+}
+
+@font-face {
+    font-family: "Minerva";
+    src:
+        local("minerva-modern"),
+        url("../fonts/Minerva Modern.otf");
+}
+
+:root {
+    --paragraph-font: "Anziano";
+    --heading-font: "Minerva";
+
+    --background-light-4: rgb(255, 255, 255);
+    --background-light-3: rgb(255, 255, 255);
+    --background-light-2: rgb(250, 250, 250);
+    --background-light-1: rgb(246, 246, 246);
+    --background-color: rgb(255, 252, 248);
+    --background-dark-1: rgb(219, 219, 219);
+    --background-dark-2: rgb(181, 181, 181);
+    --background-dark-3: rgb(162, 162, 162);
+
+    --font-color: rgb(0, 0, 0);
+    --light-font-color: rgb(229, 229, 229);
+    --muted-font: rgb(102, 102, 102);
+    --light-muted-font: rgb(200, 200, 200);
+
+    --primary-light-3: rgb(245, 203, 166);
+    --primary-light-2: rgb(209, 185, 148);
+    --primary-light-1: rgb(204, 179, 145);
+    --primary: rgb(171, 151, 122);
+    --primary-dark-1: rgb(138, 123, 98);
+    --primary-dark-2: rgb(102, 90, 72);
+    --primary-dark-3: rgb(82, 73, 58);
+
+    --success: rgb(31, 217, 24);
+
+    --error: rgb(255, 12, 32);
+
+    --warning-light-3: rgb(255, 250, 197);
+    --warning-light-2: rgb(252, 243, 174);
+    --warning-light-1: rgb(233, 211, 98);
+    --warning: rgb(246, 216, 22);
+    --warning-dark-1: rgb(186, 164, 16);
+    --warning-dark-2: rgb(107, 95, 7);
+    --warning-dark-3: rgb(79, 72, 21);
+}
+
+
+::-webkit-scrollbar {
+    width: 0.85em;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--background-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--background-dark-2);
+    transition: background-color ease 0.2s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--background-dark-3);
+}
+
+html, body {
+    margin: 0;
+    background-color: var(--background-color);
+    font-family: var(--paragraph-font);
+    color: var(--font-color);
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background-color: var(--primary);
+    color: black;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a.a {
+    border-bottom: 2px dotted var(--primary);
+}
+
+a.a:hover {
+    border-bottom-style: solid;
+}
+
+.icon-tabler {
+    stroke: rgb(134, 134, 134);
+}
+
+
+/*
+    layout styles
+*/
+
+.flexbox-row {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flexbox-column {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.column-full {
+    width: 100%;
+}
+
+.column-half {
+    width: 50%;
+}
+
+.column-third {
+    width: 33.3333%;
+}
+
+.column-twothird {
+    width: 66.6666%;
+}
+
+@media (max-width: 900px) {
+    .column-half, .column-full, .column-third, .column-twothird {
+        width: 100%;
+    }
+}
+
+.ajc {
+    align-items: center;
+    justify-content: center;
+}
+
+.aic {
+    align-items: center;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.jcse {
+    justify-content: space-evenly;
+}
+
+.aibl {
+    align-items: baseline;
+}
+
+.aifs {
+    align-items: flex-start;
+}
+
+.aife {
+    align-items: flex-end;
+}
+
+.jcfs {
+    justify-content: flex-start;
+}
+
+.jcfe {
+    justify-content: flex-end;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.center {
+    margin: auto auto;
+}
+
+.pad-5 {
+    padding: 5px;
+}
+
+.pad-10 {
+    padding: 10px;
+}
+
+.pad-20 {
+    padding: 20px;
+}
+
+.pad-30 {
+    padding: 30px;
+}
+
+.pad-40 {
+    padding: 40px;
+}
+
+.pad-50 {
+    padding: 50px;
+}
+
+.no-pad-50 {
+    padding: 50px;
+}
+
+.no-pad-30 {
+    padding: 30px;
+}
+
+.no-pad-20 {
+    padding: 20px;
+}
+
+@media (max-width: 900px) {
+    .no-pad-50 {
+        padding: 10px;
+    }
+    .no-pad-30 {
+        padding: 5px;
+    }
+    .no-pad-20 {
+        padding: 5px;
+    }
+}
+
+.mar-5 {
+    margin: 5px;
+}
+
+.mar-10 {
+    margin: 10px;
+}
+
+.mar-20 {
+    margin: 20px;
+}
+
+.mar-30 {
+    margin: 30px;
+}
+
+.mar-40 {
+    margin: 40px;
+}
+
+.mar-50 {
+    margin: 50px;
+}
+
+.space-lr {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mbt-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mbt-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-50 {
+    margin-top: 50px
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-50 {
+    margin-bottom: 50px
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.mobile-element {
+    display: none;
+}
+
+@media (max-width: 650px) {
+    .mobile-element {
+        display: block;
+    }
+}
+
+@media (max-width: 650px) {
+    .mobile-hide {
+        display: none;
+    }
+}
+
+/*
+    Base styles
+*/
+
+h1, h2, h3 {
+    font-family: "Minerva", sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+
+/*
+    Navbar styles
+*/
+
+a.nav-link {
+    margin: 0 20px;
+}
