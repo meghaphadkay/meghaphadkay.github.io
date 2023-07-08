@@ -29,7 +29,7 @@
         <header>
             <nav class="flexbox-column pad-10 mobile-hide">
                 <div class="nav-row flexbox-row ajc">
-                    <h1 id="nametag">Megha Phadkay</h1>
+                    <h1 class="nametag"><a href="index.html">Megha Phadkay</a></h1>
                 </div>
                 <div class="nav-row flexbox-row ajc mt-20 column-full">
                     <a href="" class="nav-link">About Me</a>
@@ -44,9 +44,47 @@
                 </div>
             </nav>
 
-            <nav class="mobile-element flexbox-column pad-20">
+            <nav class="mobile-element flexbox-column pad-30">
+                <div class="nav-row flexbox-row aic jcsb">
+                    <h1 class="nametag" style="margin-top: 0;"><a href="index.html">Megha Phadkay</a></h1>
+                    <button id="open-nav-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M4 6l16 0" />
+                            <path d="M4 12l16 0" />
+                            <path d="M4 18l16 0" />
+                        </svg>
+                    </button>
+                </div>
 
+                <div class="flexbox-column pad-30" id="mobile-nav">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="close-nav-button" class="icon icon-tabler icon-tabler-x" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M18 6l-12 12" />
+                        <path d="M6 6l12 12" />
+                    </svg>
+
+                    <div class="nav-row flexbox-column ajc mt-20 column-full full-height">
+                        <div class="flexbox-row aifs" style="height: 20vh;">
+                            <h1 class="nametag"><a href="index.html">Megha Phadkay</a></h1>
+                        </div>
+                        <div class="flexbox-column aic jsce pad-10">
+                            <a href="" class="nav-link">About Me</a>
+                            <a href="" class="nav-link">Publications</a>
+                            <a href="" class="nav-link">Projects</a>
+                            <a href="" class="nav-link">Community Management</a>
+                            <a href="" class="nav-link">Professional Experience</a>
+                            <a href="" class="nav-link">Awards & Honours</a>
+                            <a href="" class="nav-link">Academics</a>
+                            <a href="" class="nav-link">Sketches</a>
+                            <a href="" class="nav-link">Resume</a>
+                        </div>
+
+                    </div>
+                </div>
             </nav>
         </header>
+
+        <script src="static/js/navbar.js"></script>
     </body>
 </html>

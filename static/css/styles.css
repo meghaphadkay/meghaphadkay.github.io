@@ -364,6 +364,10 @@ a.a:hover {
     Base styles
 */
 
+button {
+    background-color: var(--background-color);
+}
+
 h1, h2, h3 {
     font-family: "Minerva", sans-serif;
     text-transform: uppercase;
@@ -375,12 +379,24 @@ h1 {
     font-size: 2rem;
 }
 
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
 
 /*
     Navbar styles
 */
 
-h1#nametag {
+h1.nametag {
     border-bottom: 2px solid var(--primary);
 }
 
@@ -392,4 +408,32 @@ a.nav-link {
 
 a.nav-link:hover {
     color: var(--primary);
+}
+
+#open-nav-button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#mobile-nav {
+    z-index: 2;
+    position: fixed;
+    transition: left ease 0.25s;
+    width: 100vw;
+    height: 100vh;
+    left: -100%;
+    top: 0;
+    background-color: var(--background-color);
+}
+
+#close-nav-button {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 3;
+}
+
+#mobile-nav .nav-link {
+    margin-top: 20px;
 }
