@@ -100,7 +100,7 @@ a.a:hover {
 }
 
 .icon-tabler {
-    stroke: rgb(134, 134, 134);
+    stroke: var(--primary-dark-1);
 }
 
 
@@ -391,6 +391,10 @@ h1 {
     }
 }
 
+img {
+    background-color: var(--primary);
+}
+
 
 /*
     Navbar styles
@@ -425,6 +429,7 @@ a.nav-link:hover {
     left: -100%;
     top: 0;
     background-color: var(--background-color);
+    overflow-y: auto;
 }
 
 #close-nav-button {
@@ -437,4 +442,21 @@ a.nav-link:hover {
 #mobile-nav .nav-link {
     margin-top: 20px;
     font-size: 1.3rem;
+    text-align: center;
+}
+
+@media (max-width: 450px) {
+    #mobile-nav .nav-link {
+        margin-top: 15px;
+        font-size: 1.1rem;
+    }
+}
+
+
+/*
+    Homepage styles
+*/
+
+.social-links a {
+    margin: 0 6px;
 }
