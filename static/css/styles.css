@@ -397,11 +397,61 @@ img {
 
 
 /*
+    Animations styles
+*/
+@keyframes slide-up {
+    from {
+        transform: translateY(60px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.slide-up {
+    animation: slide-up;
+    animation-duration: 0.8s;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fade-in;
+    animation-duration: 0.5s;
+}
+
+.fade-in-slow {
+    animation: fade-in;
+    animation-duration: 1s;
+}
+
+
+/*
     Navbar styles
 */
 
 h1.nametag {
-    border-bottom: 2px solid var(--primary);
+    position: relative;
+}
+
+h1.nametag::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    height: 3px;
+    left: 20px;
+    right: 20px;
+    background-color: var(--primary);
+    border-radius: 1px;
 }
 
 a.nav-link {
@@ -456,6 +506,7 @@ a.nav-link:hover {
 /*
     Homepage styles
 */
+
 
 .social-links a {
     margin: 0 6px;
