@@ -138,8 +138,16 @@ a.a:hover {
     width: 66.6666%;
 }
 
+.column-4of5 {
+    width: 80%;
+}
+
 @media (max-width: 900px) {
-    .column-half, .column-full, .column-third, .column-twothird {
+    .column-half,
+    .column-full,
+    .column-third,
+    .column-twothird,
+    .column-4of5 {
         width: 100%;
     }
 }
@@ -507,7 +515,16 @@ a.nav-link:hover {
     Homepage styles
 */
 
-
 .social-links a {
     margin: 0 6px;
+}
+
+.homepage-bio-column {
+    width: 60%;
+}
+
+@media (max-width: 1000px) {
+    .homepage-bio-column {
+        width: 100%;
+    }
 }
