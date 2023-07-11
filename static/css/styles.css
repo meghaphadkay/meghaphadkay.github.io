@@ -42,6 +42,8 @@
     --primary-dark-2: rgb(102, 90, 72);
     --primary-dark-3: rgb(82, 73, 58);
 
+    --accent: rgb(225, 247, 195);
+
     --success: rgb(31, 217, 24);
 
     --error: rgb(255, 12, 32);
@@ -400,7 +402,7 @@ h1 {
 }
 
 img {
-    background-color: var(--primary);
+    border: 2px solid var(--primary);
 }
 
 
@@ -454,7 +456,7 @@ h1.nametag {
 h1.nametag::after {
     content: '';
     position: absolute;
-    bottom: -5px;
+    bottom: -10px;
     height: 3px;
     left: 20px;
     right: 20px;
@@ -472,10 +474,15 @@ a.nav-link:hover {
     color: var(--primary);
 }
 
+nav {
+    background-color: var(--accent);
+}
+
 #open-nav-button {
     border: none;
     outline: none;
     cursor: pointer;
+    background-color: transparent;
 }
 
 #mobile-nav {

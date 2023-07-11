@@ -27,7 +27,7 @@
     </head>
     <body>
         <header>
-            <nav class="flexbox-column pad-10 mobile-hide">
+            <nav class="flexbox-column pad-10 mobile-hide large-screen-nav">
                 <div class="nav-row flexbox-row ajc">
                     <h1 class="nametag"><a href="index.html">Megha Phadkay</a></h1>
                 </div>
@@ -142,33 +142,38 @@
                 </div>
             </div>
             <div class="flexbox-column homepage-bio-column jcc aifs no-pad-30">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, accusantium adipisci, corporis
-                    deserunt dignissimos, earum enim esse et explicabo iste labore laudantium minima necessitatibus
-                    optio quisquam soluta unde. Autem, tenetur?
-                </p>
-                <p>Adipisci aliquid dignissimos earum eum facere illum incidunt? Accusamus at beatae deserunt ex
-                    exercitationem expedita, harum inventore, magni necessitatibus nulla perferendis perspiciatis quam
-                    repellat temporibus voluptatum. Deserunt dolores earum ipsam?
-                </p>
-                <p>Alias, architecto commodi culpa cum dolorum et ex fugiat fugit harum id illum, iure labore laborum
-                    nam nemo nostrum nulla numquam obcaecati officiis perspiciatis recusandae repudiandae suscipit
-                    temporibus veniam voluptatem.
-                </p>
-                <p>Ab accusantium dolorum expedita labore laborum laudantium. A asperiores aut, commodi consequatur
-                    delectus dolorum fugit laudantium mollitia, non obcaecati quia quo, quod sunt temporibus totam ut
-                    velit vero. Corporis, sint!
-                </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad consequuntur deleniti doloremque
-                    dolorum ea enim, esse ex expedita fugiat iure minus nihil quidem repellat rerum, similique totam
-                    velit. Dicta, reprehenderit?
-                </p>
-                <p>Blanditiis et eveniet illo magni qui quos rem similique temporibus totam vero. Ab adipisci amet
-                    animi autem commodi consequatur dolores eligendi incidunt minima perferendis, possimus
-                    praesentium sit soluta, tempora vitae.
-                </p>
+
             </div>
         </div>
 
         <script src="static/js/navbar.js"></script>
+        <script type="application/txt" src="static/data/homepage-bio.txt" id="bio-text"></script>
+        <script>
+            const bioContainer = document.querySelector(".homepage-bio-column");
+            const bioText = document.querySelector('#bio-text').src;
+
+            function addTextToBio(text) {
+                const p = document.createElement('p');
+                p.textContent = text;
+                bioContainer.appendChild(p);
+            }
+
+            fetch(bioText)
+                .then(response => response.text())
+                .then(text => {
+                    text = text.split("\n");
+                    let paraText = '';
+                    for (let t of text) {
+                        if (t.trim().length === 0) {
+                            addTextToBio(paraText);
+                            paraText = '';
+                        }
+                        else {
+                            paraText += t.trim();
+                        }
+                    }
+                    if (paraText.trim().length > 0) addTextToBio(paraText);
+                });
+        </script>
     </body>
 </html>
