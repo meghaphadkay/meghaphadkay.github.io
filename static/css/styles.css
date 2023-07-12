@@ -478,6 +478,10 @@ img {
     Navbar styles
 */
 
+h1.nametag {
+    margin-bottom: 10px;
+}
+
 a.nav-link {
     margin: 0 20px;
     font-size: 1.1rem;
@@ -490,6 +494,10 @@ a.nav-link:hover {
 
 nav {
     background-color: var(--primary);
+}
+
+nav.large-screen-nav {
+    padding: 20px;
 }
 
 #open-nav-button {
