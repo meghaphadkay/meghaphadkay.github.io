@@ -31,7 +31,7 @@
                 <div class="nav-row flexbox-row ajc">
                     <h1 class="nametag"><a href="index.html">Megha Phadkay</a></h1>
                 </div>
-                <div class="nav-row flexbox-row ajc mt-20 column-full">
+                <div class="nav-row flexbox-row ajc mbt-20 column-full">
                     <a href="about.html" class="nav-link">About Me</a>
                     <a href="" class="nav-link">Publications</a>
                     <a href="" class="nav-link">Projects</a>
@@ -67,7 +67,7 @@
                     <div class="flexbox-row aic" style="height: 20vh;">
                         <h1 class="nametag"><a href="index.html">Megha Phadkay</a></h1>
                     </div>
-                    <div class="flexbox-column aic jsce pad-10">
+                    <div class="flexbox-column aic jsce pad-10 mobile-nav-page-links no-opacity">
                         <a href="about.html" class="nav-link">About Me</a>
                         <a href="" class="nav-link">Publications</a>
                         <a href="" class="nav-link">Projects</a>
@@ -111,7 +111,7 @@
 
         <div class="flexbox-row column-4of5 center pad-30 ajc">
             <div class="flexbox-column aic jcsb no-pad-30 photo-column">
-                <img src="" alt="Megha Phadkay" width="300" height="400" id="homepage-photo" class="slide-up">
+                <img src="" alt="Megha Phadkay" width="300" height="400" id="homepage-photo" class="fade-in-slow">
 
                 <div class="flexbox-row mt-20 social-links fade-in-slow">
                     <a href="https://instagram.com/memeghaa_" target="_blank">
@@ -141,7 +141,7 @@
                     </a>
                 </div>
             </div>
-            <div class="flexbox-column homepage-bio-column jcc aifs no-pad-30">
+            <div class="flexbox-column bio-column jcc aifs no-pad-30 animation-delay-small no-opacity">
 
             </div>
         </div>
@@ -149,7 +149,7 @@
         <script src="static/js/navbar.js"></script>
         <script type="application/txt" src="static/data/homepage-bio.txt" id="bio-text"></script>
         <script>
-            const bioContainer = document.querySelector(".homepage-bio-column");
+            const bioContainer = document.querySelector(".bio-column");
             const bioText = document.querySelector('#bio-text').src;
 
             function addTextToBio(text) {
@@ -173,6 +173,7 @@
                         }
                     }
                     if (paraText.trim().length > 0) addTextToBio(paraText);
+                    bioContainer.classList.add('slide-up');
                 });
         </script>
     </body>

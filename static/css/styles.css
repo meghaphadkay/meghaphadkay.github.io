@@ -34,15 +34,19 @@
     --muted-font: rgb(102, 102, 102);
     --light-muted-font: rgb(200, 200, 200);
 
-    --primary-light-3: rgb(245, 203, 166);
-    --primary-light-2: rgb(209, 185, 148);
-    --primary-light-1: rgb(204, 179, 145);
-    --primary: rgb(171, 151, 122);
-    --primary-dark-1: rgb(138, 123, 98);
-    --primary-dark-2: rgb(102, 90, 72);
-    --primary-dark-3: rgb(82, 73, 58);
+    --accent-light-3: rgb(245, 203, 166);
+    --accent-light-2: rgb(209, 185, 148);
+    --accent-light-1: rgb(204, 179, 145);
+    --accent: rgb(171, 151, 122);
+    --accent-dark-1: rgb(138, 123, 98);
+    --accent-dark-2: rgb(102, 90, 72);
+    --accent-dark-3: rgb(82, 73, 58);
 
-    --accent: rgb(225, 247, 195);
+    --primary-light-2: rgb(211, 255, 186);
+    --primary-light-1: rgb(194, 235, 171);
+    --primary: rgb(175, 212, 155);
+    --primary-dark-1: rgb(142, 173, 127);
+    --primary-dark-2: rgb(125, 153, 112);
 
     --success: rgb(31, 217, 24);
 
@@ -84,7 +88,7 @@ html, body {
 }
 
 ::selection {
-    background-color: var(--primary);
+    background-color: var(--accent);
     color: black;
 }
 
@@ -94,15 +98,23 @@ a {
 }
 
 a.a {
-    border-bottom: 2px dotted var(--primary);
+    border-bottom: 2px dotted var(--accent);
 }
 
 a.a:hover {
     border-bottom-style: solid;
 }
 
+p {
+    font-size: 1.1rem;
+}
+
 .icon-tabler {
-    stroke: var(--primary-dark-1);
+    stroke: var(--accent-dark-1);
+}
+
+.no-opacity {
+    opacity: 0;
 }
 
 
@@ -402,13 +414,26 @@ h1 {
 }
 
 img {
-    border: 2px solid var(--primary);
+    border: 2px solid var(--accent);
 }
 
 
 /*
     Animations styles
 */
+
+.animation-delay-quarter {
+    animation-delay: 0.25s;
+}
+
+.animation-delay-small {
+    animation-delay: 0.5s;
+}
+
+.animation-delay {
+    animation-delay: 1s;
+}
+
 @keyframes slide-up {
     from {
         transform: translateY(60px);
@@ -421,8 +446,9 @@ img {
 }
 
 .slide-up {
-    animation: slide-up;
+    animation-name: slide-up;
     animation-duration: 0.8s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes fade-in {
@@ -435,34 +461,21 @@ img {
 }
 
 .fade-in {
-    animation: fade-in;
+    animation-name: fade-in;
     animation-duration: 0.5s;
+    animation-fill-mode: forwards;
 }
 
 .fade-in-slow {
-    animation: fade-in;
+    animation-name: fade-in;
     animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 
 /*
     Navbar styles
 */
-
-h1.nametag {
-    position: relative;
-}
-
-h1.nametag::after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    height: 3px;
-    left: 20px;
-    right: 20px;
-    background-color: var(--primary);
-    border-radius: 1px;
-}
 
 a.nav-link {
     margin: 0 20px;
@@ -471,11 +484,11 @@ a.nav-link {
 }
 
 a.nav-link:hover {
-    color: var(--primary);
+    color: var(--accent);
 }
 
 nav {
-    background-color: var(--accent);
+    background-color: var(--primary);
 }
 
 #open-nav-button {
@@ -526,12 +539,12 @@ nav {
     margin: 0 6px;
 }
 
-.homepage-bio-column {
+.bio-column {
     width: 60%;
 }
 
 @media (max-width: 1000px) {
-    .homepage-bio-column {
+    .bio-column {
         width: 100%;
     }
 }
