@@ -98,7 +98,7 @@ a {
 }
 
 a.a {
-    border-bottom: 2px dotted var(--accent);
+    border-bottom: 2px solid var(--accent);
 }
 
 a.a:hover {
@@ -106,7 +106,8 @@ a.a:hover {
 }
 
 p {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
+    line-height: 28px;
 }
 
 .icon-tabler {

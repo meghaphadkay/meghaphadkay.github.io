@@ -109,9 +109,9 @@
             </nav>
         </header>
 
-        <div class="flexbox-row column-4of5 center pad-30 ajc">
+        <div class="flexbox-row column-4of5 center pad-30 mt-50 aifs jcc">
             <div class="flexbox-column aic jcsb no-pad-30 photo-column">
-                <img src="" alt="Megha Phadkay" width="300" height="400" id="homepage-photo" class="fade-in-slow">
+                <img src="" alt="Megha Phadkay" width="300" height="400" id="page-photo" class="fade-in-slow">
 
                 <div class="flexbox-row mt-20 social-links fade-in-slow">
                     <a href="https://instagram.com/memeghaa_" target="_blank">
@@ -148,33 +148,6 @@
 
         <script src="static/js/navbar.js"></script>
         <script type="application/txt" src="static/data/homepage-bio.txt" id="bio-text"></script>
-        <script>
-            const bioContainer = document.querySelector(".bio-column");
-            const bioText = document.querySelector('#bio-text').src;
-
-            function addTextToBio(text) {
-                const p = document.createElement('p');
-                p.textContent = text;
-                bioContainer.appendChild(p);
-            }
-
-            fetch(bioText)
-                .then(response => response.text())
-                .then(text => {
-                    text = text.split("\n");
-                    let paraText = '';
-                    for (let t of text) {
-                        if (t.trim().length === 0) {
-                            addTextToBio(paraText);
-                            paraText = '';
-                        }
-                        else {
-                            paraText += t.trim();
-                        }
-                    }
-                    if (paraText.trim().length > 0) addTextToBio(paraText);
-                    bioContainer.classList.add('slide-up');
-                });
-        </script>
+        <script src="static/js/bio-renderer.js"></script>
     </body>
 </html>
