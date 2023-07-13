@@ -178,8 +178,8 @@
                         </svg>
                     </a>
                 </div>
-                <div class="flexbox-column pad-20 mt-30" id="favorites-column-large-screen">
-                    <h3>My favorite books:</h3>
+                <div class="flexbox-column pad-30 mt-30" id="favorites-column-large-screen">
+                    <h3>My Current Favorites:</h3>
                 </div>
             </div>
         </div>
@@ -192,6 +192,7 @@
             const bioText = document.querySelector('#bio-text').src;
 
             function addTextToBio(text) {
+                if (!text) return;
                 const p = document.createElement('p');
                 p.textContent = text;
                 bioContainer.appendChild(p);
@@ -201,8 +202,13 @@
                 .then(response => response.text())
                 .then(text => {
                     text = text.split("\n");
+
+                    const h1 = document.createElement('h1');
+                    h1.textContent = text[0];
+                    bioContainer.appendChild(h1);
+
                     let paraText = '';
-                    for (let t of text) {
+                    for (let t of text.slice(1)) {
                         if (t.trim().length === 0) {
                             addTextToBio(paraText);
                             paraText = '';
@@ -233,7 +239,7 @@
                     for (let t of text) {
                         if (t.trim().length !== 0) {
                             const span = document.createElement('span');
-                            span.classList.add('favorite-item', 'flexbox-row', 'aic', 'mt-10');
+                            span.classList.add('favorite-item', 'flexbox-row', 'aic', 'mbt-10');
                             span.innerHTML = bulletSVG;
                             span.innerHTML += `<span style="margin-left: 8px;">${t}</span>`;
                             favoritesContainerSmall.appendChild(span);

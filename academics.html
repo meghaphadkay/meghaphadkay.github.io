@@ -108,5 +108,24 @@
                 </div>
             </nav>
         </header>
+
+        <div class="flexbox-row column-4of5 center pad-30 mt-50 jcc aifs">
+            <div class="flexbox-column degree-desc-column jcc aifs no-pad-30 animation-delay-small no-opacity"></div>
+            <div class="flexbox-column aic jcsb no-pad-30 university-logo-column"></div>
+        </div>
+
+
+        <script src="static/js/navbar.js"></script>
+        <script src="static/data/academics.txt" type="application/txt" id="academics-text"></script>
+        <script>
+            const academicsContainer = document.querySelector('.degree-desc-column');
+            const academicsText = document.querySelector('#academics-text').src;
+
+            fetch(academicsText)
+                .then(response => response.text())
+                .then(text => {
+
+                })
+        </script>
     </body>
 </html>

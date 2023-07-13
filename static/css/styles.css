@@ -482,6 +482,10 @@ h1.nametag {
     margin-bottom: 10px;
 }
 
+nav.mobile-element h1.nametag {
+    margin-bottom: 0;
+}
+
 a.nav-link {
     margin: 0 20px;
     font-size: 1.1rem;
@@ -596,9 +600,14 @@ nav.large-screen-nav {
 #favorites-column-small-screen h3,
 #favorites-column-large-screen h3 {
     margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 #favorites-column-small-screen .icon-tabler,
 #favorites-column-large-screen .icon-tabler {
     stroke: var(--primary-light-1);
 }
+
+/*
+    academics styles
+*/
