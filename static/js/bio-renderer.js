@@ -19,7 +19,7 @@ fetch(bioText)
                 paraText = '';
             }
             else {
-                paraText += t.trim();
+                paraText += t.trim() + ' ';
             }
         }
         if (paraText.trim().length > 0) addTextToBio(paraText);

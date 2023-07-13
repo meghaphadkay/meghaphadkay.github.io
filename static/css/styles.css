@@ -611,3 +611,8 @@ nav.large-screen-nav {
 /*
     academics styles
 */
+
+.education-date {
+    margin-top: 20px;
+    color: var(--muted-font);
+}

@@ -1,0 +1,16 @@
+- university: ILS Law College, Pune, India
+- logo: static/media/ils-law-college-logo.png
+- degree: B.A, L.L.B
+- date: May 2019 - May 2024
+
+- module: Module 1
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eleifend odio nec urna pellentesque, sed varius odio venenatis. Aliquam vestibulum convallis massa, sed ultricies risus ullamcorper facilisis. Phasellus aliquam metus vel tristique lobortis. Etiam est leo, molestie hendrerit turpis eu, finibus auctor libero. Maecenas accumsan felis at felis viverra, in euismod felis sollicitudin. In congue bibendum arcu eu pharetra.
+
+- module: Module 2
+Cras imperdiet, purus a pellentesque malesuada, leo nisl pretium odio, nec efficitur lectus nisi et massa. Fusce vestibulum sollicitudin magna, posuere efficitur elit blandit id. Donec id volutpat ante. Nullam eget elit sed lorem imperdiet hendrerit. In pulvinar est mi, quis pellentesque nibh finibus eu. Donec sollicitudin sollicitudin ipsum a posuere. Mauris rutrum condimentum elit, eu tempus tellus interdum ac.
+
+- module: Module 3
+Donec nisi tellus, convallis in orci id, tristique consequat eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent id est augue. Donec pellentesque, ipsum non pellentesque iaculis, justo mauris vestibulum turpis, nec varius augue enim ut turpis.
+
+- module: Module 4
+Ut in tempus lectus. Nulla facilisi. Mauris accumsan est leo, ac tempus tortor cursus eu. Quisque venenatis, ligula vel placerat vestibulum, arcu quam ullamcorper quam, ac tempus nisl nibh id arcu. Duis sed ex enim. Phasellus vel mollis quam. Mauris mollis sit amet est sed mollis. Nullam a massa ut nisi blandit laoreet.
