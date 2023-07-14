@@ -412,6 +412,9 @@ h1 {
     h1 {
         font-size: 1.5rem;
     }
+    h2 {
+        font-size: 1.3rem;
+    }
 }
 
 img {
@@ -614,5 +617,6 @@ nav.large-screen-nav {
 
 .education-date {
     margin-top: 20px;
+    margin-bottom: 20px;
     color: var(--muted-font);
 }

@@ -4,7 +4,6 @@ const academicsText = document.querySelector('#academics-text').src;
 fetch(academicsText)
     .then(response => response.text())
     .then(text => {
-        console.log(text);
         text = text.split('\n');
         let collegeElement = document.createElement('div');
         collegeElement.classList.add('flexbox-column', 'aic', 'university-container', 'no-pad-30', 'animation-delay-small', 'no-opacity');
