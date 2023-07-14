@@ -1,4 +1,7 @@
 const splitOnce = (line, delimiter) => {
-    const lines = line.split(delimiter);
-    return lines.splice(1).join(' ');
+    for (let i = 0; i < line.length; i++) {
+        let char = line[i];
+        if (char === delimiter) return line.slice(i+1).trim();
+    }
+    return line;
 }

@@ -14,33 +14,47 @@ fetch(contentText)
     .then(text => {
         text = text.split("\n");
         let description = '';
+        let publicationContainer = document.createElement('div');
+        publicationContainer.classList.add('publication-container', 'flexbox-column', 'column-half', 'no-pad-30', 'ajc', 'animation-delay-small', 'no-opacity');
+
+        let nPubs = 0;
         for (let t of text) {
             if (t.toLowerCase().startsWith("- heading")) {
-                renderDescription(description);
+                renderDescription(description, publicationContainer);
                 description = '';
-                renderHeading(t.split(":")[1]);
+
+                if (nPubs > 0) {
+                    contentContainer.appendChild(publicationContainer);
+                    publicationContainer.classList.add('slide-up');
+                    publicationContainer = document.createElement('div');
+                    publicationContainer.classList.add('publication-container', 'flexbox-column', 'column-half', 'no-pad-30', 'ajc', 'animation-delay-small', 'no-opacity');
+                }
+                nPubs++;
+
+                renderHeading(splitOnce(t, ":"), publicationContainer);
             }
             else if (t.toLowerCase().startsWith("- link")) {
-                renderDescription(description);
+                renderDescription(description, publicationContainer);
                 description = '';
-                renderLink(t.split(":")[1]);
+                renderLink(splitOnce(t, ":"), publicationContainer);
             }
             else {
-                renderDescription(description);
-                description = '';
+                description += t.trim() + ' ';
             }
         }
-        renderDescription(description);
+        renderDescription(description, publicationContainer);
+        contentContainer.appendChild(publicationContainer);
+        publicationContainer.classList.add('slide-up');
     })
 
-const renderHeading = heading => {
+const renderHeading = (heading, container) => {
     const h1 = document.createElement('h1');
     h1.classList.add('publication-heading');
     h1.textContent = heading.trim();
-    contentContainer.appendChild(h1);
+    container.appendChild(h1);
 }
 
-const renderLink = link => {
+const renderLink = (link, container) => {
     const a = document.createElement('a');
     a.href = link;
     a.classList.add('publication-link', 'flexbox-row', 'ajc');
@@ -48,13 +62,13 @@ const renderLink = link => {
         <span style="margin-right: 10px;">${linkSVG}</span>
         <span>Read on ${a.hostname}</span>
     `;
-    contentContainer.appendChild(a);
+    container.appendChild(a);
 }
 
-const renderDescription = desc => {
+const renderDescription = (desc, container) => {
     if (!desc) return;
     const p = document.createElement('p');
     p.classList.add('publication-desc');
     p.textContent = desc.trim();
-    contentContainer.appendChild(p);
+    container.appendChild(p);
 }

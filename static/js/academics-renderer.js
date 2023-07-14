@@ -20,7 +20,7 @@ fetch(academicsText)
             if (t.toLowerCase().startsWith("- university")) {
                 const h1 = document.createElement('h1');
                 h1.classList.add('university-name');
-                h1.textContent = t.trim().split(":")[1];
+                h1.textContent = splitOnce(t, ":");
                 infoCol.appendChild(h1);
 
                 if (uniNumber > 0) {
@@ -39,24 +39,24 @@ fetch(academicsText)
                 uniNumber++;
             }
             else if (t.toLowerCase().startsWith("- logo")) {
-                renderDescription(description.trim());
+                renderDescription(description.trim(), infoCol);
                 description = '';
-                renderCollegeLogo(t.split(":")[1], logoCol);
+                renderCollegeLogo(splitOnce(t, ":"), logoCol);
             }
             else if (t.toLowerCase().startsWith("- degree")) {
-                renderDescription(description.trim());
+                renderDescription(description.trim(), infoCol);
                 description = '';
-                renderDegree(t.split(":")[1], infoCol);
+                renderDegree(splitOnce(t, ":"), infoCol);
             }
             else if (t.toLowerCase().startsWith("- module")) {
                 renderDescription(description.trim(), infoCol);
                 description = '';
-                renderModule(t.split(":")[1], infoCol);
+                renderModule(splitOnce(t, ":"), infoCol);
             }
             else if (t.toLowerCase().startsWith("- date")) {
                 renderDescription(description.trim(), infoCol);
                 description = '';
-                renderDate(t.split(":")[1], infoCol);
+                renderDate(splitOnce(t, ":"), infoCol);
             }
             else {
                 description += t.trim() + ' ';
