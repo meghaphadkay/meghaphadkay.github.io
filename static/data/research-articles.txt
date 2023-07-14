@@ -1,0 +1,7 @@
+- heading: Research Article Number One With A Really Really Really Long Title
+- link: https://linkedin.com
+In vestibulum magna velit, vel eleifend nibh lacinia a. Nunc ac elementum est. Sed sed magna ac risus laoreet pellentesque. Proin porttitor euismod eros, vitae interdum risus. Etiam sit amet nulla nec urna euismod consequat. Phasellus faucibus diam a sem porta, quis dignissim augue commodo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+- heading: Research Article 2
+- link: https://www.worldbank.org/en/home
+Sed sed pulvinar orci, ut malesuada enim. Donec finibus vulputate magna in ullamcorper. Cras vel mattis lacus. Sed et venenatis justo. Curabitur dignissim consequat auctor. Nunc congue mattis ante, sed cursus libero convallis sit amet. Donec enim sapien, imperdiet vel quam quis, lobortis mollis diam. Cras accumsan magna vitae faucibus efficitur. Proin sed ultrices turpis.

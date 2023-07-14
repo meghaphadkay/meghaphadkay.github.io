@@ -620,3 +620,26 @@ nav.large-screen-nav {
     margin-bottom: 20px;
     color: var(--muted-font);
 }
+
+/*
+    publications styles
+*/
+
+.publication-nav-link {
+    margin-left: 15px;
+    margin-right: 15px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color ease 0.2s;
+}
+
+.publication-nav-link-active {
+    border-bottom: 2px solid black;
+}
+
+.publication-nav-link:hover {
+    border-bottom-color: black;
+}
+
+#publication-heading {
+    margin-top: 15px;
+}

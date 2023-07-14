@@ -48,10 +48,10 @@ fetch(contentText)
     })
 
 const renderHeading = (heading, container) => {
-    const h1 = document.createElement('h1');
-    h1.classList.add('publication-heading');
-    h1.textContent = heading.trim();
-    container.appendChild(h1);
+    const h2 = document.createElement('h2');
+    h2.classList.add('publication-heading');
+    h2.textContent = heading.trim();
+    container.appendChild(h2);
 }
 
 const renderLink = (link, container) => {
