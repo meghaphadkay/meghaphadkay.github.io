@@ -25,9 +25,9 @@
     --background-light-2: rgb(250, 250, 250);
     --background-light-1: rgb(246, 246, 246);
     --background-color: rgb(253, 253, 253);
-    --background-dark-1: rgb(219, 219, 219);
-    --background-dark-2: rgb(181, 181, 181);
-    --background-dark-3: rgb(162, 162, 162);
+    --background-dark-1: rgb(230, 230, 230);
+    --background-dark-2: rgb(209, 209, 209);
+    --background-dark-3: rgb(183, 183, 183);
 
     --font-color: rgb(0, 0, 0);
     --light-font-color: rgb(229, 229, 229);
@@ -116,6 +116,10 @@ p {
 
 .no-opacity {
     opacity: 0;
+}
+
+.hidden {
+    display: none !important;
 }
 
 
@@ -476,6 +480,17 @@ img {
     animation-fill-mode: forwards;
 }
 
+@keyframes fade-out {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+.fade-out {
+    animation-name: fade-out;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
 
 /*
     Navbar styles
@@ -642,4 +657,70 @@ nav.large-screen-nav {
 
 #publication-heading {
     margin-top: 15px;
+}
+
+/*
+    projects styles
+*/
+
+#project-card-container {
+    z-index: 1;
+}
+
+.project-card {
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .project-card {
+        margin: 0;
+    }
+}
+
+.project-detail-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70vw;
+    height: 80vh;
+    overflow-y: auto;
+    flex-wrap: nowrap;
+    z-index: 3;
+    background-color: var(--background-dark-1);
+    border-radius: 6px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-detail-card img {
+    margin-top: 20px;
+}
+
+@media (max-width: 900px) {
+    .project-detail-card {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 800px) {
+    .project-detail-card {
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+.project-detail-card .close-button {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    transition: background-color ease 0.2s;
+    border-radius: 3px;
+}
+
+.project-detail-card .close-button:hover {
+    background-color: var(--background-dark-2);
 }
