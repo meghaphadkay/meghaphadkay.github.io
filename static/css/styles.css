@@ -122,6 +122,28 @@ p {
     display: none !important;
 }
 
+.tippy-box[data-theme~='green'] {
+    background-color: var(--primary-dark-1);
+    color: black;
+}
+.tippy-box[data-theme~='green'][data-placement^='top'] > .tippy-arrow::before {
+    border-top-color: var(--primary-dark-1);
+}
+.tippy-box[data-theme~='green'][data-placement^='bottom'] > .tippy-arrow::before {
+    border-bottom-color: var(--primary-dark-1);
+}
+.tippy-box[data-theme~='green'][data-placement^='left'] > .tippy-arrow::before {
+    border-left-color: var(--primary-dark-1);
+}
+.tippy-box[data-theme~='green'][data-placement^='right'] > .tippy-arrow::before {
+    border-right-color: var(--primary-dark-1);
+}
+
+.tippy-content {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 
 /*
     layout styles
@@ -498,19 +520,60 @@ img {
 
 h1.nametag {
     margin-bottom: 10px;
+    position: relative;
+}
+
+h1.nametag::after {
+    content: '';
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: -10px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: black;
 }
 
 nav.mobile-element h1.nametag {
     margin-bottom: 0;
 }
 
-a.nav-link {
+.nav-dropdown {
+    cursor: pointer;
+    background-color: transparent;
+    font-family: var(--paragraph-font);
+    border: none;
+    outline: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nav-dropdown:focus {
+    outline: 1px solid;
+}
+
+.tippy-content .nav-link,
+.tippy-content .nav-dropdown {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.nav-dropdown .icon-tabler {
+    transition: stroke ease 0.1s;
+    stroke: black;
+}
+
+.nav-dropdown:hover .icon-tabler {
+    stroke: var(--accent);
+}
+
+a.nav-link, .nav-dropdown {
     margin: 0 20px;
     font-size: 1.1rem;
     transition: color ease 0.1s;
 }
 
-a.nav-link:hover {
+a.nav-link:hover, .nav-dropdown:hover {
     color: var(--accent);
 }
 
@@ -683,7 +746,7 @@ nav.large-screen-nav {
     border-radius: 9px;
     opacity: 0;
     transition: opacity ease 0.2s;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .project-card:hover::before {

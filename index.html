@@ -25,21 +25,51 @@
 
         <title>Megha Phadkay</title>
         <script src="static/js/common-utils.js"></script>
+        <script src="https://unpkg.com/@popperjs/core@2"></script>
+        <script src="https://unpkg.com/tippy.js@6"></script>
     </head>
     <body>
         <header>
+            <template id="publications-dropdown-content" class="flexbox-column aifs tippy-content">
+                <a href="blogs.html" class="nav-link">Blogs</a>
+                <a href="research-articles.html" class="nav-link">Research Articles</a>
+                <a href="policy-papers.html" class="nav-link">Policy Papers</a>
+            </template>
+            <template id="work-dropdown-content" class="flexbox-column aifs tippy-content">
+                <button class="nav-dropdown flexbox-row ajc" id="publications-dropdown-button" data-template="publications-dropdown-content">
+                    <span>Publications</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-caret-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M10 18l6 -6l-6 -6v12" />
+                    </svg>
+                </button>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="community-management.html" class="nav-link">Community Management</a>
+                <a href="op-eds.html" class="nav-link">Op-Eds</a>
+            </template>
             <nav class="flexbox-column mobile-hide large-screen-nav">
                 <div class="nav-row flexbox-row ajc">
                     <h1 class="nametag"><a href="index.html">Megha Phadkay</a></h1>
                 </div>
                 <div class="nav-row flexbox-row ajc mbt-20 column-full">
                     <a href="about.html" class="nav-link">About Me</a>
-                    <a href="publications.html" class="nav-link">Publications</a>
-                    <a href="projects.html" class="nav-link">Projects</a>
-                    <a href="community-management.html" class="nav-link">Community Management</a>
+                    <div id="work-dropdown-button">
+                        <button class="nav-dropdown flexbox-row ajc" data-template="work-dropdown-content">
+                            <span>My Work</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-caret-down" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M6 10l6 6l6 -6h-12" />
+                            </svg>
+                        </button>
+                    </div>
                     <a href="professional-experience.html" class="nav-link">Professional Experience</a>
-                    <a href="awards-honours.html" class="nav-link">Awards & Honours</a>
-                    <a href="academics.html" class="nav-link">Academics</a>
+                    <button class="nav-dropdown flexbox-row ajc">
+                        <span>Education</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-caret-down" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                          <path d="M6 10l6 6l6 -6h-12" />
+                        </svg>
+                    </button>
                     <a href="sketches.html" class="nav-link">Sketches</a>
                     <a href="" class="nav-link">Resume</a>
                 </div>
