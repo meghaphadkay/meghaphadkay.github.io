@@ -542,6 +542,15 @@ nav.mobile-element h1.nametag {
     background-color: var(--primary-dark-1);
 }
 
+#work-dropdown-button.dropdown-expanded .icon-tabler-chevron-down,
+#education-dropdown-button.dropdown-expanded .icon-tabler-chevron-down,
+#publications-dropdown-button.dropdown-expanded .icon-tabler-chevron-right,
+#mobile-work-dropdown-button.dropdown-expanded .icon-tabler-chevron-down-mobile,
+#mobile-publications-dropdown-button.dropdown-expanded .icon-tabler-chevron-down,
+#mobile-education-dropdown-button.dropdown-expanded .icon-tabler-chevron-down {
+    transform: rotate(180deg);
+}
+
 #work-dropdown-content,
 #education-dropdown-content {
     position: absolute;
@@ -608,11 +617,11 @@ nav.mobile-element h1.nametag {
 }
 
 .nav-dropdown:focus {
-    outline: 1px solid;
+    outline: none;
 }
 
 nav .icon-tabler {
-    transition: stroke ease 0.1s;
+    transition: stroke ease 0.1s, transform ease 0.3s;
     stroke: black;
 }
 
@@ -660,6 +669,11 @@ nav.large-screen-nav {
     top: 0;
     background-color: var(--background-color);
     overflow-y: auto;
+    flex-wrap: nowrap;
+}
+
+.mobile-nav-page-links {
+    margin-top: 20px;
 }
 
 #close-nav-button {
@@ -669,17 +683,46 @@ nav.large-screen-nav {
     z-index: 3;
 }
 
-#mobile-nav .nav-link {
+#mobile-nav .nav-link,
+#mobile-nav .nav-dropdown {
     margin-top: 20px;
     font-size: 1.3rem;
-    text-align: center;
+}
+
+#mobile-nav .nav-link:hover,
+#mobile-nav .nav-dropdown:hover {
+    color: var(--primary-dark-2);
+}
+
+#mobile-nav .nav-dropdown:hover .icon-tabler,
+#mobile-nave .nav-link:hover .icon-tabler {
+    stroke: var(--primary-dark-2);
 }
 
 @media (max-width: 450px) {
-    #mobile-nav .nav-link {
+    #mobile-nav .nav-link,
+    #mobile-nav .nav-dropdown {
         margin-top: 15px;
         font-size: 1.1rem;
     }
+}
+
+#mobile-work-dropdown-content .nav-link,
+#mobile-work-dropdown-content .nav-dropdown,
+#mobile-education-dropdown-content .nav-link,
+#mobile-education-dropdown-content .nav-dropdown {
+    margin-left: 0;
+    padding-left: 5px;
+}
+
+#mobile-work-dropdown-content,
+#mobile-publications-dropdown-content,
+#mobile-education-dropdown-content {
+    border-left: 2px solid var(--primary);
+    padding-bottom: 10px;
+    z-index: -1;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 
