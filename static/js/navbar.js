@@ -16,45 +16,35 @@ closeNavButton.addEventListener('click', () => {
     navPageLinks.classList.remove('fade-in');
 })
 
-const observer = new MutationObserver(function(mutations) {
-    mutations.forEach(function(mutation) {
-        if (mutation.addedNodes.length) initializeTippy();
-    })
-})
-
-observer.observe(document.querySelector('#work-dropdown-button'), {childList: true});
-
-function initializeTippy() {
-    return tippy('button', {
-        interactive: true,
-        trigger: 'click',
-        allowHTML: true,
-        appendTo: 'parent',
-        content(reference) {
-            const id = reference.getAttribute('data-template');
-            console.log(id);
-            const template = document.getElementById(id);
-            return template.innerHTML;
-        }
-    })
-}
-
+const workDropdownButton = document.querySelector('#work-dropdown-button');
 const workDropdownContent = document.querySelector('#work-dropdown-content');
-tippy('#work-dropdown-button', {
-    content: workDropdownContent,
-    allowHTML: true,
-    theme: 'green',
-    trigger: 'click',
-    placement: 'bottom',
-    interactive: true,
+
+workDropdownButton.addEventListener('mouseover', () => {
+    workDropdownContent.classList.remove('hidden');
+});
+
+workDropdownButton.addEventListener('mouseout', () => {
+    workDropdownContent.classList.add('hidden');
+});
+
+const publicationsDropdownButton = document.querySelector('#publications-dropdown-button');
+const publicationsDropdownContent = document.querySelector('#publications-dropdown-content');
+
+publicationsDropdownButton.addEventListener('mouseover', () => {
+    publicationsDropdownContent.classList.remove('hidden');
 })
 
-const publicationsDropdownContent = document.querySelector('#publications-dropdown-content');
-tippy('#publications-dropdown-button', {
-    content: publicationsDropdownContent,
-    allowHTML: true,
-    theme: 'green',
-    trigger: 'click',
-    placement: 'right',
-    interactive: true,
+publicationsDropdownButton.addEventListener('mouseout', () => {
+    publicationsDropdownContent.classList.add('hidden');
+})
+
+const educationDropdownButton = document.querySelector('#education-dropdown-button');
+const educationDropdownContent = document.querySelector('#education-dropdown-content');
+
+educationDropdownButton.addEventListener('mouseover', () => {
+    educationDropdownContent.classList.remove('hidden');
+})
+
+educationDropdownButton.addEventListener('mouseout', () => {
+    educationDropdownContent.classList.add('hidden');
 })
