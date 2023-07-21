@@ -1,0 +1,5 @@
+- photo: static/media/sketches/sketch-1.jpg
+Cras sed metus vitae nibh varius volutpat. Ut id orci sem. Phasellus at orci diam. Maecenas efficitur sodales arcu ac feugiat. Etiam cursus ante nibh, dapibus vehicula ex lacinia et. Mauris at tristique lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean interdum sem eu consequat maximus.
+
+- photo: static/media/sketches/sketch-2.jpg
+In in erat turpis. Pellentesque metus enim, posuere at cursus non, porta a nulla. Integer ac felis facilisis, tincidunt velit sed, bibendum tortor. Morbi at leo non tellus dictum luctus. Aliquam erat volutpat. In consectetur euismod tortor. Curabitur luctus aliquet diam, eget aliquet odio mattis auctor.

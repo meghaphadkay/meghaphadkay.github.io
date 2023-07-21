@@ -664,7 +664,7 @@ nav.large-screen-nav {
     position: fixed;
     transition: left ease 0.25s;
     width: 100vw;
-    height: 100vh;
+    height: 100svh;
     left: -100%;
     top: 0;
     background-color: var(--background-color);
@@ -821,6 +821,7 @@ nav.large-screen-nav {
 
 #publication-heading {
     margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 /*
@@ -906,4 +907,33 @@ nav.large-screen-nav {
 
 .project-detail-card .close-button:hover {
     background-color: var(--background-dark-2);
+}
+
+/*
+    sketches styles
+*/
+
+.sketch-photo-column img {
+    width: 100%;
+    cursor: pointer;
+}
+
+#sketch-detail-container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    backdrop-filter: blur(10px);
+}
+
+#sketch-detail {
+    width: 60%;
+    max-height: 100%;
+}
+
+@media (max-width: 800px) {
+    #sketch-detail {
+        width: 100%;
+    }
 }
