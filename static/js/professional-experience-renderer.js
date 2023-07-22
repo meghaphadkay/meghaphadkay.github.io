@@ -107,8 +107,10 @@ function showFilteredDomains(domains) {
 
 function resetAnimation(element) {
     console.log('resetting animation');
-    element.style.animation = 'none';
-    element.style.animationFillMode = 'reset';
-    element.style.offsetHeight;
-    element.removeAttribute('style');
+    element.classList.remove('fade-in');
+    element.classList.remove('slide-up');
+    setTimeout(() => {
+        element.classList.add('fade-in');
+        element.classList.add('slide-up');
+    }, 150);
 }
