@@ -111,7 +111,7 @@ p {
 }
 
 .icon-tabler {
-    stroke: var(--accent-dark-1);
+    stroke: var(--accent-dark-3);
 }
 
 .no-opacity {
@@ -393,6 +393,8 @@ p {
 
 button {
     background-color: var(--background-color);
+    font-family: var(--paragraph-font);
+    font-size: 1rem;
 }
 
 h1, h2, h3 {
@@ -958,4 +960,22 @@ nav.large-screen-nav {
 .domain-card {
     margin: 0 10px;
     border-bottom: 2px solid var(--primary-dark-1);
+}
+
+.domain-chip {
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: var(--background-color);
+    transition: border-bottom-color ease 0.2s, background-color ease 0.2s;
+    border: 2px solid transparent;
+}
+
+.domain-chip:hover {
+    border-bottom-color: black;
+}
+
+.domain-filter-selected {
+    border-color: var(--primary-light-2);
+    border-radius: 3px;
+    background-color: var(--primary-light-2);
 }
