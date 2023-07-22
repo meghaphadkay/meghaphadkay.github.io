@@ -937,3 +937,25 @@ nav.large-screen-nav {
         width: 100%;
     }
 }
+
+/*
+    professional-experience styles
+*/
+
+.experience-card img {
+    margin-right: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+@media (max-width: 800px) {
+    .experience-card img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.domain-card {
+    margin: 0 10px;
+    border-bottom: 2px solid var(--primary-dark-1);
+}
