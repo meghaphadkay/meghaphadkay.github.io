@@ -106,7 +106,6 @@ function showFilteredDomains(domains) {
 }
 
 function resetAnimation(element) {
-    console.log('resetting animation');
     element.classList.remove('fade-in');
     element.classList.remove('slide-up');
     setTimeout(() => {

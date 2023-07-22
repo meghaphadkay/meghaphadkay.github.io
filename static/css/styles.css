@@ -519,7 +519,6 @@ nav.mobile-element h1.nametag {
 }
 
 .nav-dropdown {
-    cursor: pointer;
     background-color: transparent;
     font-family: var(--paragraph-font);
     border: none;
@@ -551,6 +550,14 @@ nav.mobile-element h1.nametag {
 #mobile-publications-dropdown-button.dropdown-expanded .icon-tabler-chevron-down,
 #mobile-education-dropdown-button.dropdown-expanded .icon-tabler-chevron-down {
     transform: rotate(180deg);
+}
+
+.dropdown-expanded > button > span {
+    color: white;
+}
+
+.dropdown-expanded > button > svg {
+    stroke: white;
 }
 
 #work-dropdown-content,
@@ -776,7 +783,8 @@ nav.large-screen-nav {
 
 #favorites-column-small-screen,
 #favorites-column-large-screen {
-    background-color: var(--accent);
+    background-color: var(--primary);
+    color: black;
     width: 100%;
     border-radius: 6px;
 }
@@ -789,7 +797,7 @@ nav.large-screen-nav {
 
 #favorites-column-small-screen .icon-tabler,
 #favorites-column-large-screen .icon-tabler {
-    stroke: var(--primary-light-1);
+    stroke: var(--accent-dark-2);
 }
 
 /*
@@ -978,4 +986,9 @@ nav.large-screen-nav {
     border-color: var(--primary-light-2);
     border-radius: 3px;
     background-color: var(--primary-light-2);
+
+}
+
+.domain-filter-selected:hover {
+    border-bottom-color: var(--primary-light-2);
 }
