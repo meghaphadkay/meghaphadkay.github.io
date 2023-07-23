@@ -16,6 +16,7 @@ fetch(certificationsText)
             }
             else if (t.toLowerCase().startsWith("- awarded")) currentCert.awardedBy = splitOnce(t, ":");
             else if (t.toLowerCase().startsWith("- link")) currentCert.link = splitOnce(t, ":");
+            else if (t.toLowerCase().startsWith("- date")) currentCert.date = splitOnce(t, ":");
             else if (t.toLowerCase().startsWith("- logo")) currentCert.logo = splitOnce(t, ":");
         }
         certifications.push(currentCert);
@@ -30,7 +31,14 @@ fetch(certificationsText)
                 </div>
                 <div class="flexbox-column aifs jcfs space-lr">
                     <h2>${cert.name}</h2>
-                    <span class="certification-issuer mt-10">${cert.awardedBy}</span>
+                    <span class="mt-10 flexbox-row aic">
+                        <span class="certification-issuer space-lr">${cert.awardedBy}</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-point-filled" width="8" height="8" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                          <path d="M12 7a5 5 0 1 1 -4.995 5.217l-.005 -.217l.005 -.217a5 5 0 0 1 4.995 -4.783z" stroke-width="0" fill="currentColor" />
+                        </svg>
+                        <span class="certification-date space-lr">${cert.date}</span>
+                    </span>
                     <span class="certification-link flexbox-row ajc">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-external-link space-lr" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                           <path stroke="none" d="M0 0h24v24H0z" fill="none"/>

@@ -1,14 +1,17 @@
 - name: Certification 1
 - awarded by: Coursera
 - link: https://coursera.org
+- date: May 2022
 - logo: static/media/certifications/certification-1.jpg
 
 - name: Certification 2
 - awarded by: EdX
 - link: https://edx.org
+- date: June 2022
 - logo: static/media/certification-2.jpg
 
 - name: Certification 3 with a long title
 - awarded by: EdX
 - link: https://edx.org
+- date: July 2023
 - logo: static/media/certification-3.jpg
