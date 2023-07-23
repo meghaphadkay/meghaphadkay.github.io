@@ -992,3 +992,33 @@ nav.large-screen-nav {
 .domain-filter-selected:hover {
     border-bottom-color: var(--primary-light-2);
 }
+
+/*
+    certifications styles
+*/
+
+.certification-card h2 {
+    margin-top: 10px;
+}
+
+.certification-card .certification-logo {
+    width: 100px;
+    height: 100px;
+}
+
+@media (max-width: 800px) {
+    .certification-card .certification-logo {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.certification-link {
+    margin-top: 10px;
+    color: var(--muted-font);
+    transition: color ease 0.2s;
+}
+
+.certification-link:hover {
+    color: var(--font-color);
+}
