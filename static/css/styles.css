@@ -552,11 +552,11 @@ nav.mobile-element h1.nametag {
     transform: rotate(180deg);
 }
 
-.dropdown-expanded > button > span {
+.large-screen-nav .dropdown-expanded > button > span {
     color: white;
 }
 
-.dropdown-expanded > button > svg {
+.large-screen-nav .dropdown-expanded > button > svg {
     stroke: white;
 }
 
