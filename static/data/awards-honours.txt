@@ -1,0 +1,9 @@
+- award: Rhodes Scholarship
+- date: September 2023
+The Rhodes Scholarship is an international postgraduate award for students to study at the University of Oxford, in the United Kingdom. Established in 1902, it is the oldest graduate scholarship in the world. It is considered among the world's most prestigious international scholarship programs.
+
+This is paragraph 2.
+
+- award: Fullbright Program
+- date: July 2024
+The Fulbright Program, including the Fulbright–Hays Program, is one of several United States Cultural Exchange Programs with the goal of improving intercultural relations, cultural diplomacy, and intercultural competence between the people of the United States and other countries through the exchange of persons, knowledge, and skills.
