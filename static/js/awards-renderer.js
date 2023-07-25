@@ -32,7 +32,7 @@ fetch(awardsText)
     .then(() => {
         for (let award of awards) {
             const awardCard = document.createElement('div');
-            awardCard.classList.add('flexbox-column', 'column-half', 'pad-30', 'award-container');
+            awardCard.classList.add('flexbox-column', 'column-twothird', 'pad-30', 'award-container');
             awardCard.innerHTML = `
                 <h2>${award.name}</h2>
                 <span class="award-date"><i>${award.date}</i></span>

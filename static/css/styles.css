@@ -424,7 +424,8 @@ h1 {
 }
 
 img {
-    border: 2px solid var(--accent);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -746,6 +747,7 @@ nav.large-screen-nav {
 .bio-column {
     width: calc(100% - 510px);
     min-width: 500px;
+    max-width: 800px;
 }
 
 @media (max-width: 1000px) {
@@ -836,6 +838,26 @@ nav.large-screen-nav {
 /*
     publications styles
 */
+
+#content-column {
+    max-width: 1400px;
+}
+
+.publication-navigation {
+    font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+    .publication-navigation {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .publication-navigation {
+        font-size: 0.7rem;
+    }
+}
 
 .publication-nav-link {
     margin-left: 15px;
@@ -975,6 +997,10 @@ nav.large-screen-nav {
     professional-experience styles
 */
 
+#experience-container {
+    max-width: 1000px;
+}
+
 .experience-card img {
     margin-right: 15px;
     width: 100px;
@@ -1019,6 +1045,12 @@ nav.large-screen-nav {
 /*
     certifications styles
 */
+
+#degree-desc-column,
+#certifications-column,
+#awards-column {
+    max-width: 1000px;
+}
 
 .certification-card h2 {
     margin-top: 10px;
