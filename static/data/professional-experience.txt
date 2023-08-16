@@ -1,19 +1,29 @@
 - position: Climate Policy Researcher
 - domains: Climate Policy, Research 
 - logo: static/media/Certification/pic.jpeg 
- My work primarily consists of analyzing the current policy regime of India wrt Climate, Energy, and Economics, and write policy papers on the same. I include the demands of communities in policy recommendations which are pitched to the Local and State government bodies. Currently, I am working on proposing policies to increase the carbon sequestration potential of the Pune Metropolitan Region, with a dream of making it Net Carbon neutral by 2050!
+ - Analyzing the current policy regime of India wrt Climate, Energy, and Economics
+ - Authoring Policy papers, White papers, and Research articles 
+ - Including the demands of communities in policy recommendations which are pitched to the Local and State government bodies
+ - Proposing policies to increase the carbon sequestration potential of the Pune Metropolitan Region, with a dream of making it Net Carbon neutral by 2050!
 
-- position: Position 2
-- domains: Domain 4, Domain 2
-- logo: static/media/experience/logo-2.jpg
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at elementum augue, nec sagittis justo. Nulla eu nunc condimentum, accumsan ante sit amet, maximus dolor. Cras non felis ante.
+- position: Legal Research Intern
+- domains: Environmental Law , Research , Litigation
+- logo: static/media/Certification/LEAF.jpeg
+- Assisted on pending cases in NGT Pune, and Supreme Court of India 
+-Researched and strategized arguments for ongoing cases 
+- Researched and analyzed the current trends in Environmental Jurisprudence in India, and the verdicts given by NGT.
+- Compiled a report analyzing the use of core principles of environmental law, forestry, rights of indigenous people, etc., how such principles have been used by the tribunals, the delay in compliances by Industries, and the compensatory measures undertaken by them
+- Prepared a comprehensive report on the working of NGT and its critical analysis (especially cases concerned with Polluter Pays Principle with respect to rivers)
+- Researched, critiqued, and summarized many judgements and government orders.
 
-- position: Position 3
-- domains: Domain 5, Domain 1
-- logo: static/media/experience/logo-3.jpg
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at elementum augue, nec sagittis justo. Nulla eu nunc condimentum, accumsan ante sit amet, maximus dolor. Cras non felis ante.
+- position: Climate Policy Intern 
+- domains: Climate Policy , Corporate drafting
+- logo: static/media/Certification/clifford chance.png 
+- Review and comment on Heads of Terms for an Emission Reductions purchase Agreement
+- Management induction on climate-related disclosure duties
+- Client counseling on pending Carbon-taxation US legislation
 
-- position: Position 4
+- position: 
 - domains: Domain 1, Domain 6, Domain 3
 - logo: static/media/experience/logo-4.jpg
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at elementum augue, nec sagittis justo. Nulla eu nunc condimentum, accumsan ante sit amet, maximus dolor. Cras non felis ante.
