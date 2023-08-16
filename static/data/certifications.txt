@@ -1,17 +1,22 @@
-- name: Certification 1
-- awarded by: Coursera
-- link: https://coursera.org
-- date: May 2022
-- logo: static/media/certifications/certification-1.jpg
+- name: Global youth CLimate Training
+- awarded by: University of Oxford
+- link: 
+- logo: static/media/Certification/Oxford.png
 
-- name: Certification 2
-- awarded by: EdX
-- link: https://edx.org
-- date: June 2022
-- logo: static/media/certification-2.jpg
+- name: Constitution of India and Environmental Governance
+- awarded by: Government of India, IISc (Indian Institute of Science)
+- link: 
+- logo: static/media/Certification/IISc.jpeg
 
-- name: Certification 3 with a long title
-- awarded by: EdX
-- link: https://edx.org
-- date: July 2023
-- logo: static/media/certification-3.jpg
+- name: International Climate Change law and Policy
+- awarded by: Newcastle University 
+- link: 
+- logo: static/media/Certification/Newcastle
+
+- name: Climate Change Litigation
+- awarded by: We, the Humans
+- logo: static/media/Certification/wethehumans.png 
+
+- name: Understanding the nuances of Climate Change in the Indian Subcontinent: Monsoon School Program
+- awarded by: Impact and Policy Research Institute (IMPRI)
+- logo: static/media/Certification/IMPRI.png 
