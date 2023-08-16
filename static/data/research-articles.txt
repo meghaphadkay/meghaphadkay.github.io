@@ -15,3 +15,7 @@ I was the youngest paper presenter at S.P. Sathe International Conference on Cli
 The article discusses the concept of "Common but Differentiated Responsibilities" (CBDR) in the context of international environmental law, particularly focusing on the perspective of Third World countries as advocated by the Third World Approach to International Law (TWAIL). The CBDR principle recognizes that climate responsibilities should vary based on a nation's development and circumstances. The principle's dynamic nature, ambiguity, and contested interpretations have led to amny necessary debates. The article suggests that CBDR should consider social, political, technological, and scientific aspects, aiming for global yet differentiated climate action. The TWAIL perspective highlights historical injustices, colonialism's impact, and the need for equitable solutions. Implementing CBDR through Nationally Determined Contributions is emphasized, urging a comprehensive and just approach for effective climate action.
 
 - heading: Animal Experimentation- Origin, Challenges, and Developments
+
+- heading: The Indian Adaptation of Constitutional Mercy Provision
+- link: https://www.ijlmh.com/the-indian-adaptation-of-constitutional-mercy-provision/ 
+
