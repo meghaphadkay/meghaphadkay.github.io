@@ -1,7 +1,7 @@
-- position: Position 1
-- domains: Domain 1, Domain 2, Domain 3
-- logo: static/media/experience/logo-1.jpg
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at elementum augue, nec sagittis justo. Nulla eu nunc condimentum, accumsan ante sit amet, maximus dolor. Cras non felis ante.
+- position: Climate Policy Researcher
+- domains: Climate Policy, Research 
+- logo: static/media/Certification/pic.jpeg 
+ My work primarily consists of analyzing the current policy regime of India wrt Climate, Energy, and Economics, and write policy papers on the same. I include the demands of communities in policy recommendations which are pitched to the Local and State government bodies. Currently, I am working on proposing policies to increase the carbon sequestration potential of the Pune Metropolitan Region, with a dream of making it Net Carbon neutral by 2050!
 
 - position: Position 2
 - domains: Domain 4, Domain 2
