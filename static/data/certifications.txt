@@ -11,7 +11,7 @@
 - name: International Climate Change law and Policy
 - awarded by: Newcastle University 
 - link: 
-- logo: static/media/Certification/Newcastle
+- logo: static/media/Certification/Newcastle.png
 
 - name: Climate Change Litigation
 - awarded by: We, the Humans
