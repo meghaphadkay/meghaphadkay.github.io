@@ -12,7 +12,7 @@
 - domains: Environmental Law , Research , Litigation
 - logo: static/media/Certification/LEAF.jpeg
 - Assisted on pending cases in NGT Pune, and Supreme Court of India 
--Researched and strategized arguments for ongoing cases 
+- Researched and strategized arguments for ongoing cases
 - Researched and analyzed the current trends in Environmental Jurisprudence in India, and the verdicts given by NGT.
 - Compiled a report analyzing the use of core principles of environmental law, forestry, rights of indigenous people, etc., how such principles have been used by the tribunals, the delay in compliances by Industries, and the compensatory measures undertaken by them
 - Prepared a comprehensive report on the working of NGT and its critical analysis (especially cases concerned with Polluter Pays Principle with respect to rivers)
