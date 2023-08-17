@@ -29,7 +29,7 @@ fetch(contentText)
             }
             else if (t.toLowerCase().startsWith("- link")) currentOpEd.link = splitOnce(t, ":");
             else if (t.toLowerCase().startsWith("- photo")) currentOpEd.photo = splitOnce(t, ":");
-            else description += t.trim() + ' ';
+            else description += t.trim() + '<br>';
         }
         currentOpEd.description = description;
         opEds[currentHeading] = currentOpEd;

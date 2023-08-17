@@ -24,7 +24,7 @@ fetch(sketchText)
                 currentSketch = {};
                 currentPath = splitOnce(t, ":");
             }
-            else description += t.trim() + ' ';
+            else description += t.trim() + '<br>';
         }
         currentSketch.photo = currentPath;
         currentSketch.description = description;

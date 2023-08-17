@@ -1,4 +1,5 @@
 - position: Climate Policy Researcher
+- company: Company
 - domains: Climate Policy, Research 
 - logo: static/media/Certification/pic.jpeg 
  - Analyzing the current policy regime of India wrt Climate, Energy, and Economics
@@ -7,26 +8,24 @@
  - Proposing policies to increase the carbon sequestration potential of the Pune Metropolitan Region, with a dream of making it Net Carbon neutral by 2050!
 
 - position: Legal Research Intern
+- company: Company
 - domains: Environmental Law , Research , Litigation
 - logo: static/media/Certification/LEAF.jpeg
 - Assisted on pending cases in NGT Pune, and Supreme Court of India 
--Researched and strategized arguments for ongoing cases 
+- Researched and strategized arguments for ongoing cases
 - Researched and analyzed the current trends in Environmental Jurisprudence in India, and the verdicts given by NGT.
 - Compiled a report analyzing the use of core principles of environmental law, forestry, rights of indigenous people, etc., how such principles have been used by the tribunals, the delay in compliances by Industries, and the compensatory measures undertaken by them
 - Prepared a comprehensive report on the working of NGT and its critical analysis (especially cases concerned with Polluter Pays Principle with respect to rivers)
 - Researched, critiqued, and summarized many judgements and government orders.
 
 - position: Climate Policy Intern 
+- company: Company
 - domains: Climate Policy , Corporate drafting
-- logo: static/media/Certification/clifford chance.png 
+- logo: static/media/Certification/clifford chance.png
 - Review and comment on Heads of Terms for an Emission Reductions purchase Agreement
 - Management induction on climate-related disclosure duties
 - Client counseling on pending Carbon-taxation US legislation
 
-- position: 
-- domains: Domain 1, Domain 6, Domain 3
-- logo: static/media/experience/logo-4.jpg
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at elementum augue, nec sagittis justo. Nulla eu nunc condimentum, accumsan ante sit amet, maximus dolor. Cras non felis ante.
 
 - position: Position 5
 - domains: Domain 2, Domain 3
