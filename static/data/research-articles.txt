@@ -19,3 +19,5 @@ The article discusses the concept of "Common but Differentiated Responsibilities
 - heading: The Indian Adaptation of Constitutional Mercy Provision
 - link: https://www.ijlmh.com/the-indian-adaptation-of-constitutional-mercy-provision/ 
 
+- heading: Regulation Artifical Intelligence systems 
+- link: https://ijalr.in/volume-3-issue-4/regulating-artificial-intelligence-systems-megha-phadkay/ 
