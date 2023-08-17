@@ -32,6 +32,7 @@ fetch(experienceText)
                     currentDomains.push(d.trim());
                 }
             }
+            else if (t.toLowerCase().startsWith("- company")) currentExperience.company = splitOnce(t, ":");
             else if (t.toLowerCase().startsWith("- logo")) currentExperience.logo = splitOnce(t, ":");
             else description += t.trim() + ' ';
         }
@@ -56,7 +57,10 @@ fetch(experienceText)
             expCard.innerHTML = `
                 <div class="flexbox-row aifs jcc">
                     ${exp.logo ? `<img src="${exp.logo}" alt="${experience}">` : ''}
-                    <h2>${experience}</h2>
+                    <div class="flexbox-column">
+                        <h2>${experience}</h2>
+                        ${exp.company ? `<span>${exp.company}</span>`: ''}
+                    </div>
                 </div>
                 <p>${exp.description}</p>
                 <div class="flexbox-row aifs jcc domain-container">${domainsHTML}</div>
