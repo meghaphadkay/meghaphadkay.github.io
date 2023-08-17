@@ -1,9 +1,5 @@
-- heading: Featured Op-Ed 1
-- link: https://katharinehayhoe.com/biography/
-- photo: static/media/op-eds/op-ed-1.jpg
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eleifend odio nec urna pellentesque, sed varius odio venenatis. Aliquam vestibulum convallis massa, sed ultricies risus ullamcorper facilisis. Phasellus aliquam metus vel tristique lobortis. Etiam est leo, molestie hendrerit turpis eu, finibus auctor libero. Maecenas accumsan felis at felis viverra, in euismod felis sollicitudin. In congue bibendum arcu eu pharetra.
+- heading: Harnessing Youth potential to steer Converations on Climate Crisis 
+- link: https://epaper.timesgroup.com/article-share?article=05_06_2023_004_010_toipuc_TOI 
+- photo: static/media/toi.jpg 
 
-- heading: Featured Op-Ed 2
-- link: https://www.xiyebeara.com/about
-- photo: static/media/op-eds/op-ed-2.jpg
-Cras sed metus vitae nibh varius volutpat. Ut id orci sem. Phasellus at orci diam. Maecenas efficitur sodales arcu ac feugiat. Etiam cursus ante nibh, dapibus vehicula ex lacinia et. Mauris at tristique lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean interdum sem eu consequat maximus.
+
