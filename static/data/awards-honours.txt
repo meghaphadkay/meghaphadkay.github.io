@@ -1,4 +1,6 @@
 - award: Climate Action Champion
+- awarded-by: Organization 1
+- logo: static/media/awards/award1.jpg
 - date: Feb 2023
 Selected by the ORF Research Foundation and the US Department of State, as one of the 30 Climate Action Champions from India, to be a part of the CACN (Climate Action Champions Network).
 
@@ -11,17 +13,23 @@ Gave recommendations, solutions and ideas in the effort of mitigating climate ch
 
 
 - award: Youth Representative
+- awarded-by: Organization 1
+- logo: static/media/awards/award1.jpg
 - date: Jan 2023
 Selected as one of the 50 youth representatives by UNICEF and Centre for Environment Education at the MYCA Climate Action Conference 2023, to formulate a Youth Policy statement.
 
 Collaborated with the Government of India, to give my recommendations for the implementation of the current NAPCC (National Action Plan on Climate Change) and SAPCC (State Action Plan on Climate Change) of Maharashtra.
 
-- award: Conservation and Policy Fellow 
+- award: Conservation and Policy Fellow
+- awarded-by: Organization 1
+- logo: static/media/awards/award1.jpg
 - date: 2022
 One among the 75 women changemakers from across 3,000 applicants around the world, chosen to participate on the first edition of a female-led global transformational leadership movement : MOVHERS.
 
 Designated as a 'Ocean Conservation and Policy' Fellow. The circle that I am a part of consists of 20 changemakers from across 15 different countries.
 
 - award: DST Inspire Internship camp 
-- date: 2019 
+- awarded-by: Organization 1
+- logo: static/media/awards/award1.jpg
+- date: 2019
 Awarded to the students with top 1 percentile scores, by the Government of India. 
