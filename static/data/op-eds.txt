@@ -3,6 +3,6 @@
 - photo: static/media/toi.jpeg
 
 - heading: Tales from the forest: Navigating CLimate Action through shared community experiences
-- photo: static/media/liverary1.jpg
-- photo: static/media/;iverary2.jpg
+- photo: static/media/liverary.png 
+
 
