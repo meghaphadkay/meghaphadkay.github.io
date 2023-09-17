@@ -1,7 +1,15 @@
-- heading: Ecofusion
+- heading: Unboxing the IPCC Synthesis Report: What makes it so special
+- link: 
+
+The IPCC's latest "Synthesis Report" is like the ultimate climate science cheat sheet, summarizing the work of hundreds of scientists. It's the last call before 2030 to save our planet from sizzling beyond 1.5°C, and guess what, politics is the main villain here, not science. The report may be full of sobering facts, but it's worth a read! This article tells you why. 
+
+- heading: Spicing up Finance: How green masala bonds can help India battle the Climate Crisis
+- link: 
+
+The article discusses the significance of "Green Masala Bonds" in India's financial landscape, highlighting their role in promoting sustainability and economic growth. It is a good read if you are looking for a piece which is analytical, informative, yet a fun read. 
 
 
 - heading: Saving the 'Kidneys of our earth': Wetlands
 - link: https://ilshariyaliblog.wixsite.com/my-site-2/post/saving-the-kidneys-of-our-earth-wetlands
 
-The article provides an exploration of wetlands, describing their significance, biodiversity, and ecological functions. It highlights the Ramsar Convention's importance and India's efforts in wetland conservation, emphasizing the inauguration of the Centre for Wetland Conservation and Management. Wetlands are depicted as crucial habitats, purifying water, mitigating floods, and supporting diverse species. The challenges of wetland conservation, dynamic nature, and difficulties in data collection are discussed. The article advocates for effective wetland conservation strategies, including transparent data sharing, collaboration between AI systems and locals, cross-checking, and outsourcing data recording. 
+The article provides an exploration of wetlands, describing their significance, biodiversity, and ecological functions. It highlights the Ramsar Convention's importance and India's efforts in wetland conservation, emphasizing the inauguration of the Centre for Wetland Conservation and Management. 
