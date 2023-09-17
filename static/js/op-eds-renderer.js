@@ -44,14 +44,18 @@ fetch(contentText)
                 'column-half'
             );
             opEdContainer.innerHTML = `
-                <img src="${opEds[opEd].photo}" width="300" height="169" alt="${opEd}">
+                <span class="mb-10">${opEd}</span>
+                
             `;
             const a = document.createElement('a');
-            a.classList.add('flexbox-row', 'ajc', 'mt-10');
+            a.classList.add('flexbox-column', 'ajc', 'mt-10');
             a.href = opEds[opEd].link;
             a.innerHTML = `
-                <span style="margin-right: 10px;">${linkSVG}</span>
-                <span>Read on ${a.hostname}</span>
+                <img src="${opEds[opEd].photo}" class="oped-photo" alt="${opEd}">
+                <span class="flexbox-row ajc mt-10">
+                    <span style="margin-right: 10px;">${linkSVG}</span>
+                    <span>Read on ${a.hostname}</span>
+                </span>
             `;
             opEdContainer.appendChild(a);
             opEdContainer.innerHTML += `

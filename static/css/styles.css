@@ -836,11 +836,35 @@ nav.large-screen-nav {
 }
 
 /*
+    op eds styles
+*/
+
+.oped-photo {
+    width: 400px;
+    height: 253px;
+}
+
+@media (max-width: 600px) {
+    .oped-photo {
+        width: 300px;
+        height: 169px;
+    }
+}
+
+@media (max-width: 400px) {
+    .oped-photo {
+        width: 200px;
+        height: 126px;
+    }
+}
+
+/*
     publications styles
 */
 
 #content-column {
     max-width: 1400px;
+    width: 100%;
 }
 
 .publication-navigation {
@@ -1056,13 +1080,15 @@ nav.large-screen-nav {
     margin-top: 10px;
 }
 
-.certification-card .certification-logo {
+.certification-card .certification-logo,
+.award-container .award-logo {
     width: 100px;
     height: 100px;
 }
 
 @media (max-width: 800px) {
-    .certification-card .certification-logo {
+    .certification-card .certification-logo,
+    .award-container .award-logo {
         width: 80px;
         height: 80px;
     }
@@ -1076,4 +1102,28 @@ nav.large-screen-nav {
 
 .certification-link:hover {
     color: var(--font-color);
+}
+
+.certification-description-column {
+    max-width: calc(100% - 190px);
+    margin-left: 20px;
+}
+
+/*
+    awards styles
+*/
+
+.award-description-column {
+    max-width: calc(100% - 190px);
+    margin-left: 20px;
+}
+
+@media (max-width: 600px) {
+    .award-description-column,
+    .certification-description-column {
+        max-width: 100%;
+        margin-left: 0;
+        width: 100%;
+        margin-top: 20px;
+    }
 }
