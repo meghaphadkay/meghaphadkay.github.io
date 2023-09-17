@@ -1,3 +1,8 @@
 - heading: Harnessing Youth potential to steer Converations on Climate Crisis 
 - link: https://epaper.timesgroup.com/article-share?article=05_06_2023_004_010_toipuc_TOI 
 - photo: static/media/toi.jpeg
+
+- heading: Tales from the forest: Navigating CLimate Action through shared community experiences
+- photo: static/media/liverary1.jpg
+- photo: static/media/;iverary2.jpg
+
