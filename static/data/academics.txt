@@ -4,11 +4,11 @@
 - date: May 2019 - May 2024
 
 - module: Environmental Law 
-Lorem ipsum bus bus dolor sit amet, consectetur adipiscing elit. Aenean eleifend odio nec urna pellentesque, sed varius odio venenatis. Aliquam vestibulum convallis massa, sed ultricies risus ullamcorper facilisis. Phasellus aliquam metus vel tristique lobortis. Etiam est leo, molestie hendrerit turpis eu, finibus auctor libero. Maecenas accumsan felis at felis viverra, in euismod felis sollicitudin. In congue bibendum arcu eu pharetra.
+
 
 - module: International Economic Law 
-Cras imperdiet, purus a pellentesque malesuada, leo nisl pretium odio, nec efficitur lectus nisi et massa. Fusce vestibulum sollicitudin magna, posuere efficitur elit blandit id. Donec id volutpat ante. Nullam eget elit sed lorem imperdiet hendrerit. In pulvinar est mi, quis pellentesque nibh finibus eu. Donec sollicitudin sollicitudin ipsum a posuere. Mauris rutrum condimentum elit, eu tempus tellus interdum ac.
 
-- module: Economics 
-Donec nisi tellus, convallis in orci id, tristique consequat eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent id est augue. Donec pellentesque, ipsum non pellentesque iaculis, justo mauris vestibulum turpis, nec varius augue enim ut turpis.
+
+- module: Economics (Macroeconomics and Microeconomics)
+
 

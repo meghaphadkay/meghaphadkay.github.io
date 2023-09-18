@@ -29,7 +29,7 @@
 
 - position: Head of Talent Recruitment and Networking
 - company: ThinkOcean India
-- domains: Management, Sustainability Campaign management, Leadership
+- domains: Campaign management, Leadership
 - logo: static/media/thinkocean.png 
 - ThinkOcean is an international think tank working for climate action.
 - We focus on ideating, developing and executing youth-driven projects concerning Climate Action and Sustainability.
@@ -38,7 +38,7 @@
 
 - position: Legal Research Intern (Environment)
 - company: Nirma University 
-- domains: Legal Research, Academic Writing
+- domains: Research, Academic Writing
 - logo: static/media/nirma.png 
 - Researched and prepared an analysis report on:  
     1. EIA Notification 2004-05 and the consequent amendments. 
@@ -48,13 +48,13 @@
 
 - position: Community Organiser
 - company: Forengers
-- domain: Management, Leadership, Community engagement
+- domain: Community Management, Leadership 
 - logo: static/media/forengers.png
 - conducted weekly public awareness drives regarding sustainability and environmental conservation
 - Helped in growing a community of 400+ youngsters
 
 - position: Legal Intern 
 - company: Karnik and Karnik Associates
-- domain: Legal Research, Corporate drafting, Academic Writing 
+- domain: Research, Corporate drafting, Academic Writing 
 - Prepared a draft on PCA (Egg laying hens) Rules 2019, PCA (Pet shop) Rules 2018, PCA (Dog breeding and marketing) Rule 2017
 - Prepared an Article on Breeding of and Experiments on animals (control and supervisions) 
