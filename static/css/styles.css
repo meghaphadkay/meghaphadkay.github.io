@@ -812,6 +812,7 @@ nav.large-screen-nav {
     color: black;
     width: 100%;
     border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 #favorites-column-small-screen h3,
