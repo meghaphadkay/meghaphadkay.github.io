@@ -740,6 +740,12 @@ nav.large-screen-nav {
     Homepage styles
 */
 
+@media (max-width: 450px) {
+    #page-photo {
+        margin-top: -50px;
+    }
+}
+
 .social-links a {
     margin: 0 6px;
 }
