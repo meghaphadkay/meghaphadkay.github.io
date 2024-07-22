@@ -740,6 +740,12 @@ nav.large-screen-nav {
     Homepage styles
 */
 
+@media (max-width: 450px) {
+    #page-photo {
+        margin-top: -50px;
+    }
+}
+
 .social-links a {
     margin: 0 6px;
 }
@@ -812,6 +818,7 @@ nav.large-screen-nav {
     color: black;
     width: 100%;
     border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 #favorites-column-small-screen h3,
