@@ -106,8 +106,10 @@ a.a:hover {
 }
 
 p {
-    font-size: 1.15rem;
+    font-size: 1.25rem;
     line-height: 28px;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
 }
 
 .icon-tabler {
@@ -399,7 +401,6 @@ button {
 
 h1, h2, h3 {
     font-family: "Minerva", sans-serif;
-    text-transform: uppercase;
     font-weight: normal;
     margin-bottom: 0;
 }
@@ -426,6 +427,16 @@ h1 {
 img {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.hide-scrollbar {
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+.hide-scrollbar::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
 }
 
 
@@ -501,6 +512,7 @@ img {
 
 h1.nametag {
     margin-bottom: 10px;
+    text-transform: uppercase;
     position: relative;
 }
 
@@ -642,8 +654,9 @@ nav .icon-tabler {
 
 a.nav-link, .nav-dropdown {
     margin: 0 20px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     transition: color ease 0.1s;
+    flex-wrap: nowrap;
 }
 
 a.nav-link {
@@ -842,6 +855,10 @@ nav.large-screen-nav {
     color: var(--muted-font);
 }
 
+.university-name, .module-name, .module-description {
+    text-align: center;
+}
+
 /*
     op eds styles
 */
@@ -908,6 +925,10 @@ nav.large-screen-nav {
 #publication-heading {
     margin-top: 15px;
     margin-bottom: 20px;
+}
+
+.publication-heading {
+    text-align: center;
 }
 
 /*
@@ -1034,15 +1055,19 @@ nav.large-screen-nav {
 
 .experience-card img {
     margin-right: 15px;
-    width: 100px;
     height: 100px;
+    box-shadow: none;
 }
 
 @media (max-width: 800px) {
     .experience-card img {
-        width: 80px;
         height: 80px;
     }
+}
+
+#domain-container {
+    flex-wrap: nowrap;
+    overflow-x: auto;
 }
 
 .domain-card {
@@ -1056,6 +1081,10 @@ nav.large-screen-nav {
     background-color: var(--background-color);
     transition: border-bottom-color ease 0.2s, background-color ease 0.2s;
     border: 2px solid transparent;
+}
+
+.domain-chip > span {
+    white-space: nowrap;
 }
 
 .domain-chip:hover {
@@ -1134,3 +1163,4 @@ nav.large-screen-nav {
         margin-top: 20px;
     }
 }
+

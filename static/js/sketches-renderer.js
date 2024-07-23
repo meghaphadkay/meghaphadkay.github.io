@@ -33,12 +33,12 @@ fetch(sketchText)
     .then(() => {
         for (let sketch of sketches) {
             const sketchCard = document.createElement('div');
-            sketchCard.classList.add('flexbox-row', 'ajc', 'no-pad-30', 'sketch-container');
+            sketchCard.classList.add('flexbox-column', 'column-half', 'ajc', 'no-pad-30', 'sketch-container');
             sketchCard.innerHTML = `
-                <div class="flexbox-column column-half pad-10 sketch-photo-column">
+                <div class="flexbox-column pad-10 sketch-photo-column">
                     <img src="${sketch.photo}" alt="">
                 </div>
-                <div class="flexbox-column column-half no-pad-30"><p>${sketch.description}</p></div>
+                <div class="flexbox-column"><p>${sketch.description}</p></div>
             `;
             sketchContainer.appendChild(sketchCard);
             sketchCard.querySelector('img').addEventListener('click', () => {

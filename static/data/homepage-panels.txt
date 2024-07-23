@@ -1,0 +1,7 @@
+- image1:
+- link1:
+- title1:
+
+- image2:
+- link2:
+- title2:

@@ -1,10 +1,8 @@
 - photo: static/media/sketches/snake.jpg 
 Boiga sp. (Cat snake)
 
-
 - photo: static/media/sketches/eagle.JPG
 
 - photo: static/media/sketches/eagle2.JPG
 
-- photo: static/media/sketches/cat.JPG 
-
+- photo: static/media/sketches/cat.JPG

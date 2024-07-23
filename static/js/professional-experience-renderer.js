@@ -34,7 +34,10 @@ fetch(experienceText)
             }
             else if (t.toLowerCase().startsWith("- company")) currentExperience.company = splitOnce(t, ":");
             else if (t.toLowerCase().startsWith("- logo")) currentExperience.logo = splitOnce(t, ":");
-            else description += t.trim() + '<br>';
+            else {
+                if (t.trim().length > 0)
+                    description += t.trim() + '<br>';
+            }
         }
         currentExperience.description = description;
         currentExperience.domains = currentDomains;
@@ -55,7 +58,7 @@ fetch(experienceText)
                 `;
             }
             expCard.innerHTML = `
-                <div class="flexbox-row aifs jcc">
+                <div class="flexbox-row aifs">
                     ${exp.logo ? `<img src="${exp.logo}" alt="${experience}">` : ''}
                     <div class="flexbox-column">
                         <h2>${experience}</h2>

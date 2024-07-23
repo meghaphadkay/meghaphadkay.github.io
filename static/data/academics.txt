@@ -1,14 +1,13 @@
+- university: University of Bristol
+- logo: static/media/Certification/ils.png
+- degree: MSc
+- date: September 2024 - July 2025
+- modules: Environmental Law, International Economic Law, Economics (Macroeconomics and Microeconomics)
+
+--
+
 - university: ILS Law College, Pune, India
-- logo: static/media/Certification/ils.png 
+- logo: static/media/Certification/ils.png
 - degree: B.A, L.L.B
 - date: May 2019 - May 2024
-
-- module: Environmental Law 
-
-
-- module: International Economic Law 
-
-
-- module: Economics (Macroeconomics and Microeconomics)
-
-
+- modules: Environmental Law, International Economic Law, Economics (Macroeconomics and Microeconomics)
