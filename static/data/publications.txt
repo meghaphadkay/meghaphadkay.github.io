@@ -1,0 +1,57 @@
+- heading: National Adaptation Plans: an Indian perspective
+- category: Research Article
+- link: https://www.ijlra.com/volume-2/volume-2-issue-7
+- description: The pandemic has made the economies even more vulnerable to Climate Change than they were before. Against this backdrop, along with mitigation measures, prioritizing adaptation options is needed. The best instrument to facilitate and implement Adaptation strategies is - National Adaptation Plans (NAP). This paper gives a detailed procedure of formulating, implementing, and reviewing National Adaptation Plans. It analyses the current legislation and institutions India has for Climate Change adaptation, and gives suggestions on how to make it more effective. It also suggests a Legislative plan to make the entire process of NAPs more standardized and easy to follow.
+
+--
+
+- heading: Common but Differentiated Responsibilities (CBDR): A TWAIL perspective
+- category: Research Article
+- link:
+- description: I was the youngest paper presenter at S.P. Sathe International Conference on Climate Change this year, where I presented this paper, alongside dignitaries like Vandana Shiva, Prof. Alexandra Harrington and Ms Sunita Narain. The article discusses the concept of "Common but Differentiated Responsibilities" (CBDR) in the context of international environmental law, particularly focusing on the perspective of Third World countries as advocated by the Third World Approach to International Law (TWAIL). The CBDR principle recognizes that climate responsibilities should vary based on a nation's development and circumstances. The principle's dynamic nature, ambiguity, and contested interpretations have led to amny necessary debates. The article suggests that CBDR should consider social, political, technological, and scientific aspects, aiming for global yet differentiated climate action. The TWAIL perspective highlights historical injustices, colonialism's impact, and the need for equitable solutions. Implementing CBDR through Nationally Determined Contributions is emphasized, urging a comprehensive and just approach for effective climate action.
+
+--
+
+- heading: Animal Experimentation- Origin, Challenges, and Developments
+- category: Research Article
+- link:
+
+--
+
+- heading: The Indian Adaptation of Constitutional Mercy Provision
+- category: Research Article
+- link: https://www.ijlmh.com/the-indian-adaptation-of-constitutional-mercy-provision/
+
+--
+
+- heading: Regulation Artifical Intelligence systems
+- category: Research Article
+- link: https://ijalr.in/volume-3-issue-4/regulating-artificial-intelligence-systems-megha-phadkay/
+
+--
+
+- heading: Redesigning Urban Local Bodies For Climate Action
+- category: Policy Paper
+- link: https://puneinternationalcentre.org/publications/45-redesigning-urban-local-bodies-for-climate-action/
+This Policy paper puts forward the critical role of India’s Urban local bodies in tackling Climate change. The paper analyses the rising quantum of emissions that cities as hubs of economic activity contribute to and how ULBs can be empowered to mitigate them.
+
+--
+
+- heading: Unboxing the IPCC Synthesis Report: What makes it so special
+- category: Blog
+- link:
+- description: The IPCC's latest "Synthesis Report" is like the ultimate climate science cheat sheet, summarizing the work of hundreds of scientists. It's the last call before 2030 to save our planet from sizzling beyond 1.5°C, and guess what, politics is the main villain here, not science. The report may be full of sobering facts, but it's worth a read! This article tells you why.
+
+--
+
+- heading: Spicing up Finance: How green masala bonds can help India battle the Climate Crisis
+- category: Blog
+- link:
+- description: The article discusses the significance of "Green Masala Bonds" in India's financial landscape, highlighting their role in promoting sustainability and economic growth. It is a good read if you are looking for a piece which is analytical, informative, yet a fun read.
+
+--
+
+- heading: Saving the 'Kidneys of our earth': Wetlands
+- category: Blog
+- link: https://ilshariyaliblog.wixsite.com/my-site-2/post/saving-the-kidneys-of-our-earth-wetlands
+- description: The article provides an exploration of wetlands, describing their significance, biodiversity, and ecological functions. It highlights the Ramsar Convention's importance and India's efforts in wetland conservation, emphasizing the inauguration of the Centre for Wetland Conservation and Management.

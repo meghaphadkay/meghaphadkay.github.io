@@ -1,4 +1,4 @@
-- heading: Harnessing Youth potential to steer Converations on Climate Crisis 
+- heading: Harnessing Youth potential to steer Conversations on Climate Crisis
 - link: https://epaper.timesgroup.com/article-share?article=05_06_2023_004_010_toipuc_TOI 
 - photo: static/media/toi.jpeg
 

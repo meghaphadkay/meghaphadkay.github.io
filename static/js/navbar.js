@@ -29,19 +29,6 @@ workDropdownButton.addEventListener('mouseout', () => {
     workDropdownButton.classList.remove('dropdown-expanded');
 });
 
-const publicationsDropdownButton = document.querySelector('#publications-dropdown-button');
-const publicationsDropdownContent = document.querySelector('#publications-dropdown-content');
-
-publicationsDropdownButton.addEventListener('mouseover', () => {
-    publicationsDropdownContent.classList.remove('hidden');
-    publicationsDropdownButton.classList.add('dropdown-expanded');
-})
-
-publicationsDropdownButton.addEventListener('mouseout', () => {
-    publicationsDropdownContent.classList.add('hidden');
-    publicationsDropdownButton.classList.remove('dropdown-expanded');
-})
-
 const educationDropdownButton = document.querySelector('#education-dropdown-button');
 const educationDropdownContent = document.querySelector('#education-dropdown-content');
 
@@ -68,23 +55,6 @@ mobileWorkDropdownButton.addEventListener('click', () => {
         mobileWorkDropdownContent.classList.add('hidden');
         mobileWorkDropdownButton.parentElement.classList.remove('dropdown-expanded');
         mobileWorkExpanded = false;
-    }
-})
-
-const mobilePublicationsDropdownButton = document.querySelector('#mobile-publications-dropdown-button > button');
-const mobilePublicationsDropdownContent = document.querySelector('#mobile-publications-dropdown-content');
-let mobilePublicationsExpanded = false;
-
-mobilePublicationsDropdownButton.addEventListener('click', () => {
-    if (!mobilePublicationsExpanded) {
-        mobilePublicationsDropdownContent.classList.remove('hidden');
-        mobilePublicationsDropdownButton.parentElement.classList.add('dropdown-expanded');
-        mobilePublicationsExpanded = true;
-    }
-    else {
-        mobilePublicationsDropdownContent.classList.add('hidden');
-        mobilePublicationsDropdownButton.parentElement.classList.remove('dropdown-expanded');
-        mobilePublicationsExpanded = false;
     }
 })
 

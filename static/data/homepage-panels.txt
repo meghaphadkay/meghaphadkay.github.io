@@ -1,7 +1,9 @@
-- image1:
-- link1:
-- title1:
+- image: static/media/toi.jpeg
+- link: https://epaper.timesgroup.com/article-share?article=05_06_2023_004_010_toipuc_TOI
+- title: Harnessing Youth Potential to Steer Conversations on Climate Crisis
 
-- image2:
-- link2:
-- title2:
+--
+
+- image: static/media/liverary.png
+- link:
+- title: Tales from the forest: Navigating Climate Action through shared community experiences

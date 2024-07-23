@@ -44,7 +44,7 @@ fetch(contentText)
                 'column-half'
             );
             opEdContainer.innerHTML = `
-                <span class="mb-10" style="font-size: 1.3rem; text-align: center;">${opEd}</span>
+                <h1 style="text-align: center;">${opEd}</h1>
             `;
             const a = document.createElement('a');
             a.classList.add('flexbox-column', 'ajc', 'mt-10');
