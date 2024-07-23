@@ -1,6 +1,6 @@
-- heading: Project 1
+- heading: Waterholes in Nagzira 
 - photo: static/media/project-1-photo.jpg
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ligula ligula, commodo id sem ac, volutpat ultrices risus. Quisque ornare ultrices libero, in vestibulum ligula ultrices vitae. Morbi tincidunt magna sem, egestas pellentesque nisi viverra in. Ut id quam nisl. Nunc mollis convallis mattis. Quisque vehicula velit nisl, eget hendrerit lectus malesuada sagittis. Etiam tincidunt tempus sapien, ac fermentum nulla scelerisque ac.
+I built waterholes to 
 
 Cras sed metus vitae nibh varius volutpat. Ut id orci sem. Phasellus at orci diam. Maecenas efficitur sodales arcu ac feugiat. Etiam cursus ante nibh, dapibus vehicula ex lacinia et. Mauris at tristique lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean interdum sem eu consequat maximus.
 
