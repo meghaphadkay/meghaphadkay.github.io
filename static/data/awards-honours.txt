@@ -2,6 +2,7 @@
 - awarded-by: US Department of State
 - logo: static/media/us.png 
 - date: Feb 2023
+- description:
 Selected by the ORF Research Foundation and the US Department of State, as one of the 30 Climate Action Champions from India, to be a part of the CACN (Climate Action Champions Network).
 
 Took part, along with over 50 South Asian Youth Delegated from 5 different countries, in shaping public debate and policy on climate change.
@@ -10,26 +11,32 @@ Gave a presentation on the position of LDCs in the Climate Crisis.
 
 Gave recommendations, solutions and ideas in the effort of mitigating climate change as well as building climate resilience within systems and communities in the region.
 
-
+--
 
 - award: Youth Representative
 - awarded-by: UNICEF
 - logo: static/media/unicef.jpeg
 - date: Jan 2023
+- description:
 Selected as one of the 50 youth representatives by UNICEF and Centre for Environment Education at the MYCA Climate Action Conference 2023, to formulate a Youth Policy statement.
 
 Collaborated with the Government of India, to give my recommendations for the implementation of the current NAPCC (National Action Plan on Climate Change) and SAPCC (State Action Plan on Climate Change) of Maharashtra.
+
+--
 
 - award: Conservation and Policy Fellow
 - awarded-by: Girl Move Academy
 - logo: static/media/girlmove.png 
 - date: 2022
+- description:
 One among the 75 women changemakers from across 3,000 applicants around the world, chosen to participate on the first edition of a female-led global transformational leadership movement : MOVHERS.
 
 Designated as a 'Ocean Conservation and Policy' Fellow. The circle that I am a part of consists of 20 changemakers from across 15 different countries.
+
+--
 
 - award: DST Inspire Internship camp 
 - awarded-by: Government of India
 - logo: static/media/gov.jpeg
 - date: 2019
-Awarded to the students with top 1 percentile scores, by the Government of India. 
+- description: Awarded to the students with top 1 percentile scores, by the Government of India.

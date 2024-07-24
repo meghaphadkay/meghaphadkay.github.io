@@ -92,6 +92,7 @@ p {
     line-height: 28px;
     margin-block-start: 1rem;
     margin-block-end: 1rem;
+    white-space: pre-line;
 }
 
 .no-opacity {
@@ -405,6 +406,7 @@ h1 {
 img {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
 }
 
 .hide-scrollbar {
@@ -1020,41 +1022,36 @@ nav.large-screen-nav {
     }
 }
 
-#domain-container {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-}
+/*#domain-container {*/
+/*    flex-wrap: nowrap;*/
+/*    overflow-x: auto;*/
+/*}*/
 
 .domain-card {
-    margin: 0 10px;
-    border-bottom: 2px solid var(--primary-dark-1);
+    margin: 3px 10px;
+    padding: 3px 10px;
+    background-color: var(--accent);
+    color: white;
+    border-radius: 15px;
 }
 
 .domain-chip {
-    margin: 0 10px;
+    margin: 4px 10px;
+    padding: 3px 6px;
     cursor: pointer;
     background-color: var(--background-color);
     transition: border-bottom-color ease 0.2s, background-color ease 0.2s;
-    border: 2px solid transparent;
+    border: 3px solid var(--accent);
+    border-radius: 15px;
 }
 
 .domain-chip > span {
     white-space: nowrap;
 }
 
-.domain-chip:hover {
-    border-bottom-color: black;
-}
-
 .domain-filter-selected {
-    border-color: var(--primary-light-2);
-    border-radius: 3px;
-    background-color: var(--primary-light-2);
-
-}
-
-.domain-filter-selected:hover {
-    border-bottom-color: var(--primary-light-2);
+    background-color: var(--accent);
+    color: white;
 }
 
 /*
@@ -1074,7 +1071,7 @@ nav.large-screen-nav {
 .certification-card .certification-logo,
 .award-container .award-logo {
     width: 100px;
-    height: 100px;
+    /*height: 100px;*/
 }
 
 @media (max-width: 800px) {

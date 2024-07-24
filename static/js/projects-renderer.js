@@ -2,43 +2,16 @@ const projectCardContainer = document.querySelector('#project-card-container');
 const projectDetailContainer = document.querySelector('#project-detail-container');
 const projectText = document.querySelector('#projects-text').src;
 
-let projects = {};
+let projects = [];
 
 fetch(projectText)
     .then(response => response.text())
     .then(text => {
-        text = text.split("\n");
-        let currentHeading;
-        let currentObject = {};
-        let description = [];
-        let descriptionString = '';
-
-        for (let t of text) {
-            if (t.toLowerCase().startsWith("- heading")) {
-                currentObject.description = description;
-                if (currentHeading) projects[currentHeading] = currentObject;
-                currentHeading = splitOnce(t, ":");
-                currentObject = {};
-                descriptionString = '';
-                description = [];
-            }
-            else if (t.toLowerCase().startsWith("- photo")) {
-                currentObject.photo = splitOnce(t, ":");
-            }
-            else {
-                if (!t.trim()) {
-                    description.push(descriptionString);
-                    descriptionString = '';
-                }
-                else descriptionString += t.trim() + ' ';
-            }
-        }
-        description.push(descriptionString);
-        currentObject.description = description;
-        projects[currentHeading] = currentObject;
+        projects = DataParser.parse(text);
+        console.log(projects);
     })
     .then(() => {
-        for (let p in projects) renderProject(p, projects[p].photo, projects[p].description);
+        for (let p of projects) renderProject(p.heading, p.photo, p.description);
         projectCardContainer.classList.add('slide-up');
     })
 
@@ -68,7 +41,7 @@ const renderProject = (heading, photo, description) => {
         </div>
         <div class="mt-30">
     `;
-    for (let d of description) projectDetailCard.innerHTML += `<p>${d}</p>`;
+    projectDetailCard.innerHTML += `<p>${description}</p>`;
     projectDetailCard.innerHTML += '</div>';
     projectDetailContainer.appendChild(projectDetailCard);
 

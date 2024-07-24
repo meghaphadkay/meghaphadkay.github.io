@@ -42,8 +42,8 @@ class DataParser {
                 currKey = line.split(':')[0].slice(2);
                 currValue = splitOnce(line, ':');
             }
-            else if (line.trim().length > 0) {
-                currValue += line.trim() + ' ';
+            else {
+                currValue += line.replaceAll('\r', '\n');
             }
         }
         if (Object.keys(currObj).length > 0) {

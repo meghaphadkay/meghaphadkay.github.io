@@ -1,22 +1,30 @@
-- name: Global youth CLimate Training
-- awarded by: University of Oxford
+- name: Global youth Climate Training
+- awarded-by: University of Oxford
 - link: 
 - logo: static/media/Certification/Oxford.png
 
+--
+
 - name: Constitution of India and Environmental Governance (All India Rank 1)
-- awarded by: Government of India, IISc (Indian Institute of Science)
+- awarded-by: Government of India, IISc (Indian Institute of Science)
 - link: 
 - logo: static/media/Certification/IISc.jpeg
 
+--
+
 - name: International Climate Change law and Policy
-- awarded by: Newcastle University 
+- awarded-by: Newcastle University
 - link: 
 - logo: static/media/Certification/Newcastle.png
 
+--
+
 - name: Climate Change Litigation
-- awarded by: We, the Humans
-- logo: static/media/Certification/wethehumans.png 
+- awarded-by: We, the Humans
+- logo: static/media/Certification/wethehumans.png
+
+--
 
 - name: Understanding the nuances of Climate Change in the Indian Subcontinent: Monsoon School Program
-- awarded by: Impact and Policy Research Institute (IMPRI)
+- awarded-by: Impact and Policy Research Institute (IMPRI)
 - logo: static/media/Certification/IMPRI.png 

@@ -1,13 +1,17 @@
 - heading: Waterholes in Nagzira 
 - photo: static/media/project-1-photo.jpg
-I built waterholes to 
+- description:
+I built waterholes to
 
 Cras sed metus vitae nibh varius volutpat. Ut id orci sem. Phasellus at orci diam. Maecenas efficitur sodales arcu ac feugiat. Etiam cursus ante nibh, dapibus vehicula ex lacinia et. Mauris at tristique lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean interdum sem eu consequat maximus.
 
 Nullam tempus tortor a metus tincidunt efficitur. In in erat turpis. Pellentesque metus enim, posuere at cursus non, porta a nulla. Integer ac felis facilisis, tincidunt velit sed, bibendum tortor. Morbi at leo non tellus dictum luctus. Aliquam erat volutpat. In consectetur euismod tortor.
 
+--
+
 - heading: Project 2
 - photo: static/media/project-2-photo.jpg
+- description:
 Cras sed metus vitae nibh varius volutpat. Ut id orci sem. Phasellus at orci diam. Maecenas efficitur sodales arcu ac feugiat. Etiam cursus ante nibh, dapibus vehicula ex lacinia et. Mauris at tristique lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean interdum sem eu consequat maximus.
 
 Integer vitae sapien porttitor, consequat orci pulvinar, sagittis massa. Nam et convallis augue. Nam posuere euismod purus sed rhoncus. Praesent in mattis ex, ut finibus sem. Morbi laoreet, purus a vehicula semper, sapien odio convallis metus, a ullamcorper nibh enim aliquet odio.

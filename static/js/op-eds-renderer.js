@@ -9,57 +9,39 @@ const linkSVG = `
 </svg>
 `;
 
-const opEds = {};
 
 fetch(contentText)
     .then(response => response.text())
     .then(text => {
-        text = text.split('\n');
-        let description = '';
-        let currentOpEd = {};
-        let currentHeading;
+        const opEds = DataParser.parse(text);
+        for (let opEd of opEds) renderOpEd(opEd);
+    })
 
-        for (let t of text) {
-            if (t.toLowerCase().startsWith("- heading")) {
-                currentOpEd.description = description;
-                description = '';
-                if (currentHeading) opEds[currentHeading] = currentOpEd;
-                currentHeading = splitOnce(t, ":");
-                currentOpEd = {};
-            }
-            else if (t.toLowerCase().startsWith("- link")) currentOpEd.link = splitOnce(t, ":");
-            else if (t.toLowerCase().startsWith("- photo")) currentOpEd.photo = splitOnce(t, ":");
-            else description += t.trim() + '<br>';
-        }
-        currentOpEd.description = description;
-        opEds[currentHeading] = currentOpEd;
-        console.log(opEds);
-    })
-    .then(() => {
-        for (let opEd in opEds) {
-            const opEdContainer = document.createElement('div');
-            opEdContainer.classList.add(
-                'op-ed', 'flexbox-column', 'no-pad-30', 'ajc',
-                'slide-up', 'animation-delay-small', 'no-opacity',
-                'column-half'
-            );
-            opEdContainer.innerHTML = `
-                <h1 style="text-align: center;">${opEd}</h1>
-            `;
-            const a = document.createElement('a');
-            a.classList.add('flexbox-column', 'ajc', 'mt-10');
-            a.href = opEds[opEd].link;
-            a.innerHTML = `
-                <img src="${opEds[opEd].photo}" class="oped-photo" alt="${opEd}">
-                <span class="flexbox-row ajc mt-10">
-                    <span style="margin-right: 10px;">${linkSVG}</span>
-                    <span>Read on ${a.hostname}</span>
-                </span>
-            `;
-            opEdContainer.appendChild(a);
-            opEdContainer.innerHTML += `
-                <p>${opEds[opEd].description}</p>
-            `;
-            contentContainer.appendChild(opEdContainer);
-        }
-    })
+const renderOpEd = (opEd) => {
+    const opEdContainer = document.createElement('div');
+    opEdContainer.classList.add(
+        'op-ed', 'flexbox-column', 'no-pad-30', 'ajc',
+        'slide-up', 'animation-delay-small', 'no-opacity',
+        'column-half'
+    );
+    opEdContainer.innerHTML = `
+        <h1 style="text-align: center;">${opEd.heading}</h1>
+    `;
+    const a = document.createElement('a');
+    a.classList.add('flexbox-column', 'ajc', 'mt-10');
+    a.href = opEd.link;
+    a.innerHTML = `
+        <img src="${opEd.photo}" class="oped-photo" alt="${opEd}">
+        <span class="flexbox-row ajc mt-10">
+            <span style="margin-right: 10px;">${linkSVG}</span>
+            <span>Read on ${a.hostname}</span>
+        </span>
+    `;
+    opEdContainer.appendChild(a);
+    if (opEd.description) {
+        opEdContainer.innerHTML += `
+            <p>${opEd.description}</p>
+        `;
+    }
+    contentContainer.appendChild(opEdContainer);
+}
