@@ -1,8 +1,8 @@
 - university: University of Bristol
-- logo: static/media/Certification/ils.png
-- degree: MSc
-- date: September 2024 - July 2025
-- modules: Environmental Law, International Economic Law, Economics (Macroeconomics and Microeconomics)
+- logo: static/media/bristol_logo.png
+- degree: MSc in Environmental Policy and Management
+- date: September 2024 - September 2025
+- modules: Climate Policy Consultancy, GIS and Remote Sensing for Environmental Policy
 
 --
 
