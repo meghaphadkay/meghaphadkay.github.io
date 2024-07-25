@@ -1,16 +1,20 @@
 - position: Climate Policy Researcher
 - company: Pune International Center
 - domains: Climate Policy, Research , Academic Writing
-- logo: static/media/Certification/pic.jpeg 
- - Analyzing the current policy regime of India wrt Climate, Energy, and Economics
- - Authoring Policy papers, White papers, and Research articles 
- - Including the demands of communities in policy recommendations which are pitched to the Local and State government bodies
- - Proposing policies to increase the carbon sequestration potential of the Pune Metropolitan Region, with a dream of making it Net Carbon neutral by 2050!
+- logo: static/media/Certification/pic.jpeg
+- description:
+- Analyzing the current policy regime of India wrt Climate, Energy, and Economics
+- Authoring Policy papers, White papers, and Research articles
+- Including the demands of communities in policy recommendations which are pitched to the Local and State government bodies
+- Proposing policies to increase the carbon sequestration potential of the Pune Metropolitan Region, with a dream of making it Net Carbon neutral by 2050!
+
+--
 
 - position: Legal Research Intern
 - company: under Adv. Sreeja Chakraborty
 - domains: Environmental Law , Research , Litigation, Academic Writing
 - logo: static/media/Certification/LEAF.jpeg
+- description:
 - Assisted on pending cases in NGT Pune, and Supreme Court of India 
 - Researched and strategized arguments for ongoing cases
 - Researched and analyzed the current trends in Environmental Jurisprudence in India, and the verdicts given by NGT.
@@ -18,42 +22,57 @@
 - Prepared a comprehensive report on the working of NGT and its critical analysis (especially cases concerned with Polluter Pays Principle with respect to rivers)
 - Researched, critiqued, and summarized many judgements and government orders.
 
+--
+
 - position: Climate Risk and Advisory Intern
 - company: Clifford Chance 
 - domains: Climate Policy, Corporate Drafting
 - logo: static/media/Certification/clifford chance.png
+- description:
 - Review and comment on Heads of Terms for an Emission Reductions purchase Agreement
 - Management induction on climate-related disclosure duties
 - Client counseling on pending Carbon-taxation US legislation
 
+--
+
 - position: Head of Talent Recruitment and Networking
 - company: ThinkOcean India
 - domains: Campaign management, Leadership
-- logo: static/media/thinkocean.png 
+- logo: static/media/thinkocean.png
+- description:
 - ThinkOcean is an international think tank working for climate action.
 - We focus on ideating, developing and executing youth-driven projects concerning Climate Action and Sustainability.
 - Initiated and organized several community projects regarding sustainability and waste management. 
 - My work consisted of recruiting and retaining talent, and conducting networking projects
 
+--
+
 - position: Legal Research Intern (Environment)
 - company: Nirma University 
 - domains: Research, Academic Writing
-- logo: static/media/nirma.png 
-- Researched and prepared an analysis report on:  
+- logo: static/media/nirma.png
+- description:
+Researched and prepared an analysis report on:
     1. EIA Notification 2004-05 and the consequent amendments. 
     2. Public Participation in the process of granting environmental clearances in India.  
     3. Current status and management of scientific information related to the Indian environment. 
 - Prepared case briefs for the SC cases regarding the same.
 
+--
+
 - position: Community Organiser
 - company: Forengers
 - domains: Community Management, Leadership
 - logo: static/media/forengers.png
+- description:
 - conducted weekly public awareness drives regarding sustainability and environmental conservation
 - Helped in growing a community of 400+ youngsters
+
+--
 
 - position: Legal Intern 
 - company: Karnik and Karnik Associates
 - domains: Research, Corporate Drafting, Academic Writing
+- description:
 - Prepared a draft on PCA (Egg laying hens) Rules 2019, PCA (Pet shop) Rules 2018, PCA (Dog breeding and marketing) Rule 2017
 - Prepared an Article on Breeding of and Experiments on animals (control and supervisions) 

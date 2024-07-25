@@ -32,7 +32,6 @@ fetch(panelText)
     .then(response => response.text())
     .then(text => {
         text = DataParser.parse(text);
-        console.log(text);
         for (let panel of text) {
             if (panel.image.trim() && panel.title.trim()) {
                 renderPanel(panel);

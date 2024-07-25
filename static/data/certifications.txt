@@ -1,4 +1,4 @@
-- name: Global youth Climate Training
+- name: Global Youth Climate Training
 - awarded-by: University of Oxford
 - link: 
 - logo: static/media/Certification/Oxford.png
