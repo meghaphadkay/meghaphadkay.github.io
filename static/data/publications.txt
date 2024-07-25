@@ -1,39 +1,51 @@
+- heading: Redesigning Urban Local Bodies For Climate Action
+- category: Policy Paper
+- link: https://puneinternationalcentre.org/publications/45-redesigning-urban-local-bodies-for-climate-action/
+- description: This Policy paper puts forward the critical role of India’s Urban local bodies in tackling Climate change. The paper analyses the rising quantum of emissions that cities as hubs of economic activity contribute to and how ULBs can be empowered to mitigate them.
+
+--
+
+- heading: Urban Carbon Sequestration of Pune Municipal Region
+- category: Policy Paper
+- link: 
+- description: This paper computes and analyses the current carbon sequestration potential of Pune region. It suggests policy changes to increase natural carbon sequestration of a metropolitan region, like Pune.
+
+
+--
+
+
 - heading: National Adaptation Plans: an Indian perspective
 - category: Research Article
 - link: https://www.ijlra.com/volume-2/volume-2-issue-7
-- description: The pandemic has made the economies even more vulnerable to Climate Change than they were before. Against this backdrop, along with mitigation measures, prioritizing adaptation options is needed. The best instrument to facilitate and implement Adaptation strategies is - National Adaptation Plans (NAP). This paper gives a detailed procedure of formulating, implementing, and reviewing National Adaptation Plans. It analyses the current legislation and institutions India has for Climate Change adaptation, and gives suggestions on how to make it more effective. It also suggests a Legislative plan to make the entire process of NAPs more standardized and easy to follow.
+- description: The pandemic has made the economies even more vulnerable to Climate Change than they were before. Against this backdrop, along with mitigation measures, prioritizing adaptation options is needed. This paper gives a detailed procedure of formulating, implementing, and reviewing National Adaptation Plans. It also suggests a Legislative plan to make the entire process of NAPs more standardized and easy to follow.
 
 --
 
 - heading: Common but Differentiated Responsibilities (CBDR): A TWAIL perspective
 - category: Research Article
 - link:
-- description: I was the youngest paper presenter at S.P. Sathe International Conference on Climate Change this year, where I presented this paper, alongside dignitaries like Vandana Shiva, Prof. Alexandra Harrington and Ms Sunita Narain. The article discusses the concept of "Common but Differentiated Responsibilities" (CBDR) in the context of international environmental law, particularly focusing on the perspective of Third World countries as advocated by the Third World Approach to International Law (TWAIL). The CBDR principle recognizes that climate responsibilities should vary based on a nation's development and circumstances. The principle's dynamic nature, ambiguity, and contested interpretations have led to amny necessary debates. The article suggests that CBDR should consider social, political, technological, and scientific aspects, aiming for global yet differentiated climate action. The TWAIL perspective highlights historical injustices, colonialism's impact, and the need for equitable solutions. Implementing CBDR through Nationally Determined Contributions is emphasized, urging a comprehensive and just approach for effective climate action.
+- description: I was the youngest paper presenter at S.P. Sathe International Conference on Climate Change this year, where I presented this paper, alongside dignitaries like Vandana Shiva, Prof. Alexandra Harrington and Ms Sunita Narain. The article discusses the concept of "Common but Differentiated Responsibilities" (CBDR) in the context of international environmental law, particularly the perspective of Third World countries. 
 
 --
 
 - heading: Animal Experimentation- Origin, Challenges, and Developments
 - category: Research Article
-- link:
+
+- description: This article attempts to question the use of animals used in the experiments conducted in pharmaceutical, drugs, cosmetics, and scientific research laboratories. It puts forth the alternatives currently available in the market, in the place of animals, and critically examines the same.
 
 --
 
 - heading: The Indian Adaptation of Constitutional Mercy Provision
 - category: Research Article
 - link: https://www.ijlmh.com/the-indian-adaptation-of-constitutional-mercy-provision/
+- description: The article commences with the origin and the history of the mercy provision, then explains its scope and intricacies. It justifies the necessity of the provision in spite of its repercussions, in the modern civilized society.
 
 --
 
 - heading: Regulation Artifical Intelligence systems
 - category: Research Article
 - link: https://ijalr.in/volume-3-issue-4/regulating-artificial-intelligence-systems-megha-phadkay/
-
---
-
-- heading: Redesigning Urban Local Bodies For Climate Action
-- category: Policy Paper
-- link: https://puneinternationalcentre.org/publications/45-redesigning-urban-local-bodies-for-climate-action/
-- description: This Policy paper puts forward the critical role of India’s Urban local bodies in tackling Climate change. The paper analyses the rising quantum of emissions that cities as hubs of economic activity contribute to and how ULBs can be empowered to mitigate them.
+- description: This article delves into the challenges of regulating artificial intelligence (AI) systems and proposes three distinct methods to address this issue.
 
 --
 
@@ -47,11 +59,11 @@
 - heading: Spicing up Finance: How green masala bonds can help India battle the Climate Crisis
 - category: Blog
 - link:
-- description: The article discusses the significance of "Green Masala Bonds" in India's financial landscape, highlighting their role in promoting sustainability and economic growth. It is a good read if you are looking for a piece which is analytical, informative, yet a fun read.
+- description: The article discusses the significance of "Green Masala Bonds" in India's financial landscape, highlighting their role in promoting sustainability and economic growth. It is a good read if you are looking for a piece which is analytical, informative, yet fun.
 
 --
 
 - heading: Saving the 'Kidneys of our earth': Wetlands
 - category: Blog
 - link: https://ilshariyaliblog.wixsite.com/my-site-2/post/saving-the-kidneys-of-our-earth-wetlands
-- description: The article provides an exploration of wetlands, describing their significance, biodiversity, and ecological functions. It highlights the Ramsar Convention's importance and India's efforts in wetland conservation, emphasizing the inauguration of the Centre for Wetland Conservation and Management.
+- description: The article provides an exploration of wetlands, describing their significance, biodiversity, and ecological functions. 
