@@ -1,5 +1,7 @@
 # Documentation
-Hi Megha, this set of pages is your instruction manual.
+Hi Megha, this page is your instruction manual.
+
+I have set up Google Analytics for your site, so you can see analytics about who visits your site and when. You can install the Google Analytics app for iOS or [click here if your on a laptop](https://accounts.google.com/signin/v2/identifier?service=analytics&passive=1209600&continue=https%3A%2F%2Fanalytics.google.com%2Fanalytics%2Fweb%2F%23&followup=https%3A%2F%2Fanalytics.google.com%2Fanalytics%2Fweb%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin).
 
 Each page on the website is created using 3 parts -
 1. The data files in `static/data/` which store the content of a page
@@ -66,7 +68,7 @@ Sentence 3.
 
 This way, the description will also be shown on multiple lines on the page instead of in a single paragraph.
 
-The next section lists the expected data format for each page, as well as the keys supported by each page.
+The next section lists the expected data format for each page and the keys supported by each page.
 
 ## Pages
 ### Homepage
