@@ -22,9 +22,20 @@ const renderPublication = (data) => {
     const a = document.createElement('a');
     a.href = data.link;
 
+    let publicationChipBackgroundColor = '#ace5e9';
+    let publicationChipColor = 'black';
+    if (data.category && data.category.trim().toLowerCase() === 'research article') {
+        publicationChipBackgroundColor = '#b0c9a2';
+        publicationChipColor = 'black';
+    }
+    else if (data.category && data.category.trim().toLowerCase() === 'blog') {
+        publicationChipBackgroundColor = '#faf583';
+        publicationChipColor = 'black';
+    }
+
     publicationContainer.innerHTML = `
     <h1>${data.heading}</h1>
-    <span class="publication-category">${data.category}</span>
+    <span class="publication-category" style="color: ${publicationChipColor}; background-color: ${publicationChipBackgroundColor};">${data.category}</span>
     <span class="flexbox-row mt-10">
         ${linkSVG}
         <a href="${data.link}" target="_blank">Read on ${a.hostname}</a>

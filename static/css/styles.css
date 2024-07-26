@@ -882,9 +882,7 @@ nav.large-screen-nav {
 }
 
 .publication-category {
-    background-color: var(--accent);
     border-radius: 15px;
-    color: white;
     padding: 2px 10px;
 }
 
