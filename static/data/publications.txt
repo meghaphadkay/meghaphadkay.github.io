@@ -65,5 +65,5 @@
 
 - heading: Saving the 'Kidneys of our earth': Wetlands
 - category: Blog
-- link: https://ilshariyaliblog.wixsite.com/my-site-2/post/saving-the-kidneys-of-our-earth-wetlands
+- link: https://ilshariyaliblog.wixsite.com/my-site-2/post/saving-the-kidneys-of-our-earth-wetlands 
 - description: The article provides an exploration of wetlands, describing their significance, biodiversity, and ecological functions. 
