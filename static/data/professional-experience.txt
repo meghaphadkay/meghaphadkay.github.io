@@ -1,3 +1,25 @@
+- position: Sustainability Ambassador (Education of Sustainable Development Team)
+- company: University of Bristol
+- domains: Climate Education, Research , Data Analysis
+- logo: static/media/bristol_logo.png
+- description:
+- Working with the Education for Sustainable Development (ESD) team to include Sustainability in the curriculum of all disciplines. 
+- Sustainability data-analysis using Python, and creating research reports from datasets.
+
+--
+
+- position: Project Manager, Student Policy Consultant  
+- company: Ricardo
+- domains: Policy Consultancy, Climate Policy, Project Management
+- logo: static/media/ricardo.png
+- description:
+- Addressed policy and management challenges at Ricardo Consultancy, as a part of my course.
+- Produced Climate projections using Copernicus Satellite data, for global climate risk assessments of Global South regions.
+- Researched and presented consultancy and sustainability reports.
+
+
+--
+
 - position: Climate Policy Researcher
 - company: Pune International Center
 - domains: Climate Policy, Research , Academic Writing
