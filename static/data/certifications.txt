@@ -1,3 +1,9 @@
+- name: Climate Fresk Facilitator (Yellow-Belt)
+- awarded-by: Climate Fresk
+- logo: static/media/Certification/climatefresk.png
+
+--
+
 - name: Global Youth Climate Training
 - awarded-by: University of Oxford
 - link: 
